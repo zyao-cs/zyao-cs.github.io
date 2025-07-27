@@ -36,6 +36,7 @@ Education
 Publications
 ------
 - **Zhongming Yao**, Tianyi Li, Junchang Xin, Yushuai Li, Chenxu Wang, Zhiqiong Wang, Divesh Srivastava, Christian S Jensen. VGQ: Enabling Verifiable Graph Queries on Blockchain Systems. _The IEEE International Conference on Data Engineering (ICDE)_, 2025.
+- Ziming Liu, Bonan Huang, Cheng Zhang, **Zhongming Yao**, Tianyi Li, Qiuye Sun, Yushuai Li. Clustered Federated Learning for Energy-Harvesting Smart Meters in P2P Energy Trading. _IEEE Transactions on Green Communications and Networking (TGCN)_, 2025.
 - Tianyi Li, Yushuai Li, Yumeng Song, **Zhongming Yao**, Wei Gao, David Wenzhong Gao. Networked Digital Twins for Autonomous Vehicles: A New Perspective. _IEEE Transactions on Intelligent Vehicles (TIV)_, 2024.
 - **Zhongming Yao**, Zhiqiong Wang, Kun Hao, Liang Wen. Efficient Blockchain Data Provenance Based on the W3C PROV Model. _The International Conference on Advanced Data Mining and Applications (ADMA)_, 2023.
 - Liang Wen, Zhiqiong Wang, Tingyu Cui, Caiyun Shi, Baoting Li, **Zhongming Yao**. A Fine-Grained Verification Method for Blockchain Data Based on Merkle Path Sharding. _The International Conference on Advanced Data Mining and Applications (ADMA)_, 2023.
