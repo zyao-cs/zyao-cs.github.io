@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Zhongming Yao"
+title                    : "Zhongming Yao|Home"
 title_separator          : "-"
 name                     : &name "Zhongming Yao"
 description              : &description "personal description"
@@ -36,7 +36,7 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=gyb-h20AAAAJ"
   impactstory      : # URL
-  orcid            : 
+  orcid            : "https://orcid.org/my-orcid?orcid=0009-0007-6463-9195"
   semantic         : # URL
   pubmed           : 
   researchgate     : # URL
