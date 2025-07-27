@@ -15,6 +15,27 @@ Research Interests
 - Machine Learning
 - Energe Management
 
+
+Education
+------
+-Aalborg University, Denmark | Guest PhD Dec. 2023 – Present
+--Major: Computer Science Aalborg, Denmark
+--Host Supervisor: Assistant Professor Tianyi Li
+--Research Topic: Blockchain-based Trajectory Data Management
+
+-Northeastern University, China | PhD Candidate Sep. 2020 – Nov. 2025 (Expected)
+--Major: Computer Science and Technology Shenyang, China
+--Supervisor: Prof. Junchang Xin
+--Research Topic: Blockchain Technology
+
+-Northeastern University, China | Master Sep. 2018 – Jul. 2020
+--Major: Biomedical Engineering Shenyang, China
+--Supervisor: Prof. Junchang Xin
+--Research Topic: Blockchain Technology
+
+-Northeastern University, China | Bachelor Sep. 2013 – Jul. 2017
+--Major: Computer Science and Technology Shenyang, China
+
 Publications
 ------
 - **Zhongming Yao**, Tianyi Li, Junchang Xin, Yushuai Li, Chenxu Wang, Zhiqiong Wang, Divesh Srivastava, Christian S Jensen. VGQ: Enabling Verifiable Graph Queries on Blockchain Systems. _The IEEE International Conference on Data Engineering (ICDE)_, 2025.
