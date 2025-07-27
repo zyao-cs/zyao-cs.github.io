@@ -19,7 +19,7 @@ Research Interests
 Education
 ------
 - Aalborg University, Denmark | Guest PhD Dec. 2023 – Present
--- Major: Computer Science Aalborg, Denmark
+- - Major: Computer Science Aalborg, Denmark
 -- Host Supervisor: Assistant Professor Tianyi Li
 -- Research Topic: Blockchain-based Trajectory Data Management
 
