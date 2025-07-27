@@ -11,7 +11,7 @@ I am a Ph.D. student at the School of Computer Science and Engineering, Northeas
 
 Research Interests
 ------
-- Blockchain
+- Blockchain Technology
 - Machine Learning
 - Energy Management
 
