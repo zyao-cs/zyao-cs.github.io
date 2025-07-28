@@ -40,7 +40,7 @@ Publications
 - Tianyi Li, Yushuai Li, Yumeng Song, **Zhongming Yao**, Wei Gao, David Wenzhong Gao. Networked Digital Twins for Autonomous Vehicles: A New Perspective. _IEEE Transactions on Intelligent Vehicles (TIV)_, 2024.
 - **Zhongming Yao**, Zhiqiong Wang, Kun Hao, Liang Wen. Efficient Blockchain Data Provenance Based on the W3C PROV Model. _The International Conference on Advanced Data Mining and Applications (ADMA)_, 2023.
 - Liang Wen, Zhiqiong Wang, Tingyu Cui, Caiyun Shi, Baoting Li, **Zhongming Yao**. A Fine-Grained Verification Method for Blockchain Data Based on Merkle Path Sharding. _The International Conference on Advanced Data Mining and Applications (ADMA)_, 2023.
-- **Zhongming Yao**, Junchang Xin, Kun Hao, Zhiqiong Wang, Wangcheng Zhu. Learned Index Based Semantic Keyword Query on Blockchain, _Mathematic_, 2023.
+- **Zhongming Yao**, Junchang Xin, Kun Hao, Zhiqiong Wang, Wancheng Zhu. Learned Index Based Semantic Keyword Query on Blockchain, _Mathematic_, 2023.
 - Kun Hao, Junchang Xin, Zhiqiong Wang, **Zhongming Yao**, Guoren Wang. Efficient and Secure Data Sharing Scheme on Interoperable Blockchain Database. _IEEE Transactions on Big Data (TBD)_, 2023.
 - Kun Hao, Junchang Xin, Zhiqiong Wang, **Zhongming Yao**, Guoren Wang. On efficient top-k transaction path query processing in blockchain database. _Data & Knowledge Engineering (DKE)_, 2022.
 - Sihan Dong, Junchang Xin, Kun Hao, **Zhongming Yao**, Jinyi Chen. A join query optimization algorithm in multi-blockchain environment. _Journal of Zhejiang University (Engineering Science)_, 2021. (In Chinese)
