@@ -18,11 +18,11 @@ Research Interests
 
 Education
 ------
-- Aalborg University, Denmark (Guest PhD Dec. 2023 – Present)
+- Aalborg University, Denmark (Guest Ph.D. Dec. 2023 – Present)
   - Major: Computer Science Aalborg, Denmark
   - Host Supervisor: Assistant Professor Tianyi Li
   - Research Topic: Trajectory Data Management with Blockchain
-- Northeastern University, China (PhD Candidate Sep. 2020 – Nov. 2025 (Expected))
+- Northeastern University, China (Ph.D. Candidate Sep. 2020 – Present)
   - Major: Computer Science and Technology Shenyang, China
   - Supervisor: Prof. Junchang Xin
   - Research Topic: Blockchain Technology
