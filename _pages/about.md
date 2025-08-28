@@ -20,7 +20,7 @@ Education
 ------
 - Aalborg University, Denmark (Guest Ph.D. Dec. 2023 – Present)
   - Major: Computer Science Aalborg, Denmark
-  - Host Supervisor: Assistant Professor Tianyi Li
+  - Host Supervisor: Associate Professor Tianyi Li
   - Research Topic: Trajectory Data Management with Blockchain
 - Northeastern University, China (Ph.D. Candidate Sep. 2020 – Present)
   - Major: Computer Science and Technology Shenyang, China
