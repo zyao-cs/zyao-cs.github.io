@@ -58,5 +58,5 @@ Academic Services
 
 CV
 ------
-[Download my CV here](/files/Zhongming_Yao_CV.pdf)
+[Download my CV here](/CV_zyao.pdf)
 
