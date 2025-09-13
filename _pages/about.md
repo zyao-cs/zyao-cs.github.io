@@ -21,19 +21,19 @@ Research Interests
 Education
 ------
 - Aalborg University, Denmark (Guest Ph.D. Dec. 2023 – Present)
-  - Major: Computer Science Aalborg, Denmark
-  - Host Supervisor: Associate Professor Tianyi Li
+  - Major: Computer Science, Aalborg, Denmark
+  <!--- Host Supervisor: Associate Professor Tianyi Li-->
   - Research Topic: Trajectory Data Management with Blockchain
 - Northeastern University, China (Ph.D. Candidate Sep. 2020 – Present)
-  - Major: Computer Science and Technology Shenyang, China
+  - Major: Computer Science and Technology, Shenyang, China
   - Supervisor: Prof. Junchang Xin
   - Research Topic: Blockchain Technology
 - Northeastern University, China (Master Sep. 2018 – Jul. 2020)
-  - Major: Biomedical Engineering Shenyang, China
+  - Major: Biomedical Engineering, Shenyang, China
   - Supervisor: Prof. Junchang Xin
   - Research Topic: Blockchain Technology
 - Northeastern University, China (Bachelor Sep. 2013 – Jul. 2017)
-  - Major: Computer Science and Technology Shenyang, China
+  - Major: Computer Science and Technology, Shenyang, China
 
 Publications
 ------
@@ -55,3 +55,8 @@ Academic Services
 - Reviewer \[APWeb-WAIM joint International Conference on Web and Big Data (APWeb-WAIM)\]
 - Reviewer \[IEEE Transactions on Industrial Informatics (TII)\]
 - Reviewer \[World Wide Web: Internet and Web Information Systems (WWWJ)\]
+
+CV
+------
+[Download my CV here](/files/Zhongming_Yao_CV.pdf)
+
