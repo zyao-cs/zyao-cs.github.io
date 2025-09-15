@@ -49,6 +49,8 @@ Publications
 
 Academic Services
 ------
+- PC \[AAAI Conference on Artificial Intelligence (AAAI)\]
+- Reviewer \[Distributed and Parallel Databases (DPD)\]
 - Reviewer \[IEEE Network\]
 - Reviewer \[IEEE International Conference on Data Mining (ICDM)\]
 - Reviewer \[The Journal of Supercomputing\]
