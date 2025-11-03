@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Zhongming Yao | Home"
+title                    : "Zhongming Yao"
 title_separator          : "-"
 name                     : &name "Zhongming Yao"
 description              : &description "Ph.D. candidate"
