@@ -151,4 +151,41 @@ pre, code {
 }
 
 
+/* =========================================================
+   加宽页面内容区域：减少右侧空白（强制生效版）
+   说明：同时命中外层容器 + 统一 max-width，并强制 width:100%
+   ========================================================= */
+
+.initial-content,
+.page,
+.page__inner-wrap,
+.archive__inner-wrap,
+.masthead__inner-wrap,
+.footer__inner-wrap {
+  width: 100% !important;            /* 让容器能铺满 */
+  max-width: 1380px !important;      /* 你想要的最大宽度（可调 1200~1600） */
+  margin-left: auto !important;      /* 居中 */
+  margin-right: auto !important;     /* 居中 */
+}
+
+/* 可选：减少两侧内边距，让内容更贴近边缘（大屏更明显） */
+.initial-content,
+.page__inner-wrap,
+.archive__inner-wrap {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+/* 超大屏再放宽一点（可选） */
+@media (min-width: 90em) {
+  .initial-content,
+  .page,
+  .page__inner-wrap,
+  .archive__inner-wrap,
+  .masthead__inner-wrap,
+  .footer__inner-wrap {
+    max-width: 1500px !important;
+  }
+}
+
 
