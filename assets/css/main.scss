@@ -42,133 +42,55 @@
 ;
 
 
+/* =========================================================
+   学术主页紧凑美化（可直接复制）
+   包含：更换字体（Source Serif 4）+ 字体/间距紧凑 + 两栏比例优化 + 页面加宽
+   放置位置：assets/css/main.scss 最底部（所有 @import 之后）
+   ========================================================= */
+
+/* 0）引入更好看的网页字体（Google Fonts） */
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&display=swap');
 
-body {
-  font-family: 'Source Serif 4', serif;
-}
-/* =========================================================
-   学术主页紧凑优化样式（字体压缩 + 侧栏压缩 + 列表紧凑）
-   建议放在 main.scss 文件最后
-   ========================================================= */
-
 /* 1）全局字体与行距设置 */
-html { 
-  font-size: 15px;   /* 14px 更紧凑；15px 更舒适 */
+html {
+  font-size: 15px; /* 14px 更紧凑；15px 更舒适 */
 }
 
 body {
-  font-size: 0.95rem;   /* 正文字体略微缩小 */
-  line-height: 1.55;    /* 行距压缩 */
+  font-family: 'Source Serif 4', serif; /* 使用更学术的衬线字体 */
+  font-size: 0.95rem;                   /* 正文字体略微缩小 */
+  line-height: 1.55;                    /* 行距压缩 */
 }
 
-/* 2）减少页面整体垂直留白 */
-p { margin: 0 0 0.65em; }      /* 段落间距 */
-ul, ol { margin: 0 0 0.75em; } /* 列表整体间距 */
-li { margin-bottom: 0.15em; }  /* 列表项之间间距 */
-hr { margin: 1.0em 0; }        /* 分割线上下间距 */
+/* 2）减少页面整体垂直留白（让一屏信息更多） */
+p { margin: 0 0 0.65em; }               /* 段落间距 */
+ul, ol { margin: 0 0 0.75em; }          /* 列表整体间距 */
+li { margin-bottom: 0.15em; }           /* 列表项之间间距 */
+hr { margin: 1.0em 0; }                 /* 分割线上下间距 */
 
 .page__content { margin-top: 0.6em; }
-.page__content > :first-child { margin-top: 0; }
+.page__content > :first-child { margin-top: 0; } /* 去除首元素多余间距 */
 
-/* 3）标题缩小并压缩间距 */
-.page__title { 
-  font-size: 1.8rem; 
-  margin-bottom: 0.4em; 
-}
+/* 3）标题缩小并压缩间距（更像学术主页风格） */
+.page__title { font-size: 1.8rem; margin-bottom: 0.4em; }
 
-h1 { 
-  font-size: 1.8rem; 
-  margin: 0.9em 0 0.35em; 
-}
+h1 { font-size: 1.8rem; margin: 0.9em 0 0.35em; }
+h2 { font-size: 1.35rem; margin: 0.9em 0 0.35em; }
+h3 { font-size: 1.15rem; margin: 0.8em 0 0.3em; }
 
-h2 { 
-  font-size: 1.35rem; 
-  margin: 0.9em 0 0.35em; 
-}
-
-h3 { 
-  font-size: 1.15rem; 
-  margin: 0.8em 0 0.3em; 
-}
-
-/* 4）控制页面整体最大宽度，使版面更紧凑 */
-.page { 
-  max-width: 1380px;   /* 可在 980~1100 之间调整 */
-}
-
-/* 5）左侧侧栏压缩（桌面端生效：按比例调整，不使用 flex，避免出现中间大空白） */
-@media (min-width: 64em) {
-
-  /* 左侧侧栏占比（默认通常更大，这里调窄一点） */
-  .sidebar {
-
-    padding-right: 8px !important;  /* 减少右侧空白 */
-  }
-
-  /* 右侧正文占比（自动填满剩余宽度） */
-  .page__content {
-    width: 80% !important;          /* 与 sidebar 配套 */
-    margin-left: 0 !important;      /* 防止旧规则残留把正文推走 */
-  }
-}
-
-/* 6）Publication / Archive 列表更紧凑 */
-.archive__item { 
-  margin-bottom: 0.65em; 
-}
-
-.archive__item-title { 
-  font-size: 1.05rem; 
-  line-height: 1.35; 
-  margin: 0 0 0.15em; 
-}
-
-.archive__item-excerpt { 
-  font-size: 0.92rem; 
-  line-height: 1.45; 
-  margin-top: 0.15em; 
-}
-
-/* 7）表格与代码块字体略微缩小 */
-table { 
-  font-size: 0.92rem; 
-}
-
-pre, code { 
-  font-size: 0.9em; 
-}
-
-/* 8）顶部导航栏高度略微压缩 */
-.masthead { 
-  padding-top: 0.4rem; 
-  padding-bottom: 0.4rem; 
-}
-
-.greedy-nav a { 
-  padding-top: 0.35rem; 
-  padding-bottom: 0.35rem; 
-}
-
-
-/* =========================================================
-   加宽页面内容区域：减少右侧空白（强制生效版）
-   说明：同时命中外层容器 + 统一 max-width，并强制 width:100%
-   ========================================================= */
-
+/* 4）加宽页面内容区域：减少右侧大空白（关键！）
+      说明：只改外层容器，不改 .page，避免破坏两栏布局 */
 .initial-content,
-.page,
-.page__inner-wrap,
-.archive__inner-wrap,
 .masthead__inner-wrap,
-.footer__inner-wrap {
-  width: 100% !important;            /* 让容器能铺满 */
-  max-width: 1380px !important;      /* 你想要的最大宽度（可调 1200~1600） */
-  margin-left: auto !important;      /* 居中 */
-  margin-right: auto !important;     /* 居中 */
+.footer__inner-wrap,
+.page__inner-wrap,
+.archive__inner-wrap {
+  max-width: 1500px !important;  /* 推荐 1350~1600；越大右侧空白越少 */
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
-/* 可选：减少两侧内边距，让内容更贴近边缘（大屏更明显） */
+/* 让大屏两侧内边距更小（内容更“铺满”） */
 .initial-content,
 .page__inner-wrap,
 .archive__inner-wrap {
@@ -176,16 +98,50 @@ pre, code {
   padding-right: 1rem !important;
 }
 
-/* 超大屏再放宽一点（可选） */
-@media (min-width: 90em) {
-  .initial-content,
-  .page,
-  .page__inner-wrap,
-  .archive__inner-wrap,
-  .masthead__inner-wrap,
-  .footer__inner-wrap {
-    max-width: 1500px !important;
+/* 5）左侧侧栏压缩（桌面端生效：同时设置 sidebar 与正文比例） */
+@media (min-width: 64em) {
+
+  /* 左侧侧栏占比（缩窄以减少左侧空白感） */
+  .sidebar {
+    width: 18% !important;           /* 推荐 16%~20% */
+    padding-left: 0 !important;
+    padding-right: 8px !important;   /* 减少右侧空白 */
   }
+
+  /* 右侧正文占比（填满剩余空间） */
+  .page__content {
+    width: 82% !important;
+    margin-left: 0 !important;       /* 防止旧规则残留把正文推走 */
+  }
+}
+
+/* 6）Publication / Archive 列表更紧凑 */
+.archive__item { margin-bottom: 0.65em; }
+
+.archive__item-title {
+  font-size: 1.05rem;
+  line-height: 1.35;
+  margin: 0 0 0.15em;
+}
+
+.archive__item-excerpt {
+  font-size: 0.92rem;
+  line-height: 1.45;
+  margin-top: 0.15em;
+}
+
+/* 7）表格与代码块字体略微缩小 */
+table { font-size: 0.92rem; }
+pre, code { font-size: 0.9em; }
+
+/* 8）顶部导航栏高度略微压缩 */
+.masthead { padding-top: 0.4rem; padding-bottom: 0.4rem; }
+.greedy-nav a { padding-top: 0.35rem; padding-bottom: 0.35rem; }
+
+/* 9）（可选）缩小头像，进一步减少左侧空白感
+      如果你觉得头像已经合适，可以注释掉这一段 */
+.author__avatar img {
+  max-width: 140px !important;  /* 推荐 125~145 */
 }
 
 
