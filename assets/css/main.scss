@@ -102,8 +102,7 @@ h3 {
 
   /* 左侧侧栏占比（默认通常更大，这里调窄一点） */
   .sidebar {
-    width: 20% !important;          /* 推荐 20%~22% */
-    padding-left: 0 !important;
+
     padding-right: 8px !important;  /* 减少右侧空白 */
   }
 
@@ -152,30 +151,4 @@ pre, code {
 }
 
 
-/* =========================================================
-   加宽页面内容区域：减少右侧空白（对 AcademicPages 最有效）
-   ========================================================= */
 
-/* 1）整体内容区域加宽（正文页/列表页通用） */
-.initial-content,
-.page__inner-wrap,
-.archive__inner-wrap {
-  max-width: 1280px !important;   /* 推荐 1200~1400，自行调整 */
-}
-
-/* 2）导航栏/页脚也同步加宽（可选，但视觉更统一） */
-.masthead__inner-wrap,
-.footer__inner-wrap {
-  max-width: 1280px !important;
-}
-
-/* 3）如果仍然觉得右侧空白多，可以再加宽一点 */
-@media (min-width: 80em) {
-  .initial-content,
-  .page__inner-wrap,
-  .archive__inner-wrap,
-  .masthead__inner-wrap,
-  .footer__inner-wrap {
-    max-width: 1380px !important;
-  }
-}
