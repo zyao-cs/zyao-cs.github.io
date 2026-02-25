@@ -100,39 +100,18 @@ h3 {
 /* 5）左侧侧栏压缩（桌面端生效） */
 @media (min-width: 64em) {
 
-  /* 缩窄侧栏整体宽度 */
+  /* 缩窄侧栏宽度（用 max-width 更不容易把布局弄坏） */
   .sidebar {
-    width: 200px !important;        /* 推荐 190~210 之间 */
-    padding-right: 10px !important; /* 减少右侧空白 */
+    max-width: 200px !important;   /* 推荐 190~210 */
+    width: auto !important;
+    padding-left: 0 !important;
+    padding-right: 8px !important; /* 减少右侧空白 */
   }
 
-  /* 让正文区域左移，与新侧栏宽度匹配 */
+  /* 不要手动推正文，让主题自己计算位置 */
   .page__content {
-    margin-left: 220px !important;  /* 略大于 sidebar 宽度 */
+    margin-left: 0 !important;
   }
-}
-
-/* 减少侧栏内部留白 */
-.author__content {
-  padding: 0 !important;
-}
-
-.author__bio {
-  margin-bottom: 0.5em !important;
-}
-
-.author__urls {
-  font-size: 0.9rem;
-  margin-top: 0.3em !important;
-}
-
-.author__urls li {
-  margin-bottom: 0.2em;
-}
-
-.author__name { 
-  font-size: 1.15rem; 
-  margin-bottom: 0.25em; 
 }
 
 /* 6）Publication / Archive 列表更紧凑 */
