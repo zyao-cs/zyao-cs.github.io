@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Postdoctoral Researcher in the Department of Computer Science at Aalborg University, Denmark, under the supervision of Prof. Yan Zhao. I closely collaborate with Prof. Christian S. Jensen, Associate Prof. [Tianyi Li](http://tianyili.site/), and Prof. Kristian Torp. I received my Ph.D. degree from Northeastern University in 2025 under the supervision of Prof. [Junchang Xin](http://faculty.neu.edu.cn/xinjunchang/zh_CN/index.htm). From 2022 to 2024, I was a visiting Ph.D. student at Aalborg University, hosted by Associate Prof. [Tianyi Li](http://tianyili.site/).
+I am currently a Postdoctoral Researcher in the Department of Computer Science at Aalborg University, Denmark, under the supervision of Prof. [Yan Zhao](https://vbn.aau.dk/da/persons/torp/). I closely collaborate with Prof. [Christian S. Jensen](https://csj.cs.aau.dk/), Associate Prof. [Tianyi Li](http://tianyili.site/), and Prof. [Kristian Torp]([https://csj.cs.aau.dk/](https://vbn.aau.dk/da/persons/torp/)). I received my Ph.D. degree from Northeastern University in 2025 under the supervision of Prof. [Junchang Xin](http://faculty.neu.edu.cn/xinjunchang/zh_CN/index.htm). From 2022 to 2024, I was a visiting Ph.D. student at Aalborg University, hosted by Associate Prof. [Tianyi Li](http://tianyili.site/).
 
 <!-- I am a Ph.D. student at the School of Computer Science and Engineering, Northeastern University, China, under the supervision of Professor [Junchang Xin](http://faculty.neu.edu.cn/xinjunchang/zh_CN/index.htm). Meanwhile, I am a guest Ph.D. student at the Department of Computer Science, Aalborg University, Denmark, hosted by Associate Professor [Tianyi Li](http://tianyili.site/).-->
 
