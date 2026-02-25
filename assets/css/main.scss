@@ -42,10 +42,10 @@
 ;
 
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&display=swap');
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Source Serif 4', serif;
 }
 /* =========================================================
    学术主页紧凑优化样式（字体压缩 + 侧栏压缩 + 列表紧凑）
@@ -94,7 +94,7 @@ h3 {
 
 /* 4）控制页面整体最大宽度，使版面更紧凑 */
 .page { 
-  max-width: 1020px;   /* 可在 980~1100 之间调整 */
+  max-width: 1240px;   /* 可在 980~1100 之间调整 */
 }
 
 /* 5）左侧侧栏压缩（桌面端生效：按比例调整，不使用 flex，避免出现中间大空白） */
