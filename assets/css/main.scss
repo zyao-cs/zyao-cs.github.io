@@ -97,29 +97,20 @@ h3 {
   max-width: 1020px;   /* 可在 980~1100 之间调整 */
 }
 
-/* 5）左侧侧栏压缩（桌面端生效：强制两栏布局，避免主题网格不受控） */
+/* 5）左侧侧栏压缩（桌面端生效：按比例调整，不使用 flex，避免出现中间大空白） */
 @media (min-width: 64em) {
 
-  /* 将页面主体改成左右两列布局 */
-  .page {
-    display: flex !important;
-    align-items: flex-start !important;
-  }
-
-  /* 左侧侧栏固定宽度（你想要多窄就改这里） */
+  /* 左侧侧栏占比（默认通常更大，这里调窄一点） */
   .sidebar {
-    flex: 0 0 200px !important;     /* 推荐 190~210 */
-    max-width: 200px !important;
-    width: 200px !important;
+    width: 20% !important;          /* 推荐 20%~22% */
     padding-left: 0 !important;
     padding-right: 8px !important;  /* 减少右侧空白 */
   }
 
-  /* 右侧正文占剩余宽度，且不允许被额外 margin 推走 */
+  /* 右侧正文占比（自动填满剩余宽度） */
   .page__content {
-    flex: 1 1 auto !important;
-    margin-left: 0 !important;
-    min-width: 0 !important;
+    width: 80% !important;          /* 与 sidebar 配套 */
+    margin-left: 0 !important;      /* 防止旧规则残留把正文推走 */
   }
 }
 
