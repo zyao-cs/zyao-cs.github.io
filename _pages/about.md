@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student at the School of Computer Science and Engineering, Northeastern University, China, under the supervision of Professor [Junchang Xin](http://faculty.neu.edu.cn/xinjunchang/zh_CN/index.htm). Meanwhile, I am a guest Ph.D. student at the Department of Computer Science, Aalborg University, Denmark.
+I am currently a Postdoctoral Researcher in the Department of Computer Science at Aalborg University, Denmark, under the supervision of Prof. Yan Zhao. I closely collaborate with Prof. Christian S. Jensen, Associate Prof. [Tianyi Li](http://tianyili.site/), and Prof. Kristian Torp. I received my Ph.D. degree from Northeastern University in 2025 under the supervision of Prof. [Junchang Xin](http://faculty.neu.edu.cn/xinjunchang/zh_CN/index.htm). From 2022 to 2024, I was a visiting Ph.D. student at Aalborg University, hosted by Associate Prof. [Tianyi Li](http://tianyili.site/).
 
-<!--, hosted by Associate Professor [Tianyi Li](http://tianyili.site/).-->
+<!-- I am a Ph.D. student at the School of Computer Science and Engineering, Northeastern University, China, under the supervision of Professor [Junchang Xin](http://faculty.neu.edu.cn/xinjunchang/zh_CN/index.htm). Meanwhile, I am a guest Ph.D. student at the Department of Computer Science, Aalborg University, Denmark, hosted by Associate Professor [Tianyi Li](http://tianyili.site/).-->
 
 Research Interests
 ------
@@ -21,9 +21,9 @@ Research Interests
 Education
 ------
 - **Aalborg University, Denmark** - Guest Ph.D. 
-  - (Dec. 2023 – Dec. 2025
+  - Dec. 2023 – Dec. 2025
   - Major: Computer Science, Aalborg, Denmark
-  <!--- Host Supervisor: Associate Professor Tianyi Li-->
+  - Host Supervisor: Associate Professor Tianyi Li
   - Research Topic: Trajectory Data Management with Blockchain
 - **Northeastern University, China** - Ph.D. 
   - Sep. 2020 – Dec. 2025
@@ -35,7 +35,7 @@ Education
   - Major: Biomedical Engineering, Shenyang, China
   - Supervisor: Prof. Junchang Xin
   - Research Topic: Blockchain Technology
-- **Northeastern University, China** -Bachelor
+- **Northeastern University, China** - Bachelor
   - Sep. 2013 – Jul. 2017
   - Major: Computer Science and Technology, Shenyang, China
 
