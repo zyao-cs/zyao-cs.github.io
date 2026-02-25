@@ -40,3 +40,55 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+
+/* =========================================================
+   Compact Academic (ICDE/IEEE-style) overrides for AcademicPages
+   Paste at the END of assets/css/main.scss
+   ========================================================= */
+
+/* 1) Global typography */
+html { font-size: 15px; }          /* 14px 更紧凑；15px更舒服 */
+body {
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+/* 2) Reduce vertical whitespace */
+p { margin: 0 0 0.65em; }
+ul, ol { margin: 0 0 0.75em; }
+li { margin-bottom: 0.15em; }
+hr { margin: 1.0em 0; }
+
+.page__content { margin-top: 0.6em; }
+.page__content > :first-child { margin-top: 0; }
+
+/* 3) Headings smaller & tighter */
+.page__title { font-size: 1.8rem; margin-bottom: 0.4em; }
+h1 { font-size: 1.8rem; margin: 0.9em 0 0.35em; }
+h2 { font-size: 1.35rem; margin: 0.9em 0 0.35em; }
+h3 { font-size: 1.15rem; margin: 0.8em 0 0.3em; }
+
+/* 4) Make the main column feel denser */
+.page { max-width: 1020px; }       /* 980-1100 都可以按喜好调 */
+
+/* 5) Sidebar: slightly narrower + compact text */
+.sidebar { width: 230px; }         /* 如果你觉得左侧太宽，改 210~240 */
+.author__name { font-size: 1.15rem; margin-bottom: 0.25em; }
+.author__bio,
+.author__content { font-size: 0.9rem; line-height: 1.45; }
+.author__urls { font-size: 0.9rem; }
+.author__urls li { margin-bottom: 0.2em; }
+
+/* 6) Publications / archive list tighter */
+.archive__item { margin-bottom: 0.65em; }
+.archive__item-title { font-size: 1.05rem; line-height: 1.35; margin: 0 0 0.15em; }
+.archive__item-excerpt { font-size: 0.92rem; line-height: 1.45; margin-top: 0.15em; }
+
+/* 7) Tables & code blocks slightly smaller */
+table { font-size: 0.92rem; }
+pre, code { font-size: 0.9em; }
+
+/* 8) Optional: make navigation a bit slimmer */
+.masthead { padding-top: 0.4rem; padding-bottom: 0.4rem; }
+.greedy-nav a { padding-top: 0.35rem; padding-bottom: 0.35rem; }
