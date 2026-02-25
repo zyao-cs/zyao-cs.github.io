@@ -43,52 +43,126 @@
 
 
 /* =========================================================
-   Compact Academic (ICDE/IEEE-style) overrides for AcademicPages
-   Paste at the END of assets/css/main.scss
+   学术主页紧凑优化样式（字体压缩 + 侧栏压缩 + 列表紧凑）
+   建议放在 main.scss 文件最后
    ========================================================= */
 
-/* 1) Global typography */
-html { font-size: 15px; }          /* 14px 更紧凑；15px更舒服 */
-body {
-  font-size: 0.95rem;
-  line-height: 1.55;
+/* 1）全局字体与行距设置 */
+html { 
+  font-size: 15px;   /* 14px 更紧凑；15px 更舒适 */
 }
 
-/* 2) Reduce vertical whitespace */
-p { margin: 0 0 0.65em; }
-ul, ol { margin: 0 0 0.75em; }
-li { margin-bottom: 0.15em; }
-hr { margin: 1.0em 0; }
+body {
+  font-size: 0.95rem;   /* 正文字体略微缩小 */
+  line-height: 1.55;    /* 行距压缩 */
+}
+
+/* 2）减少页面整体垂直留白 */
+p { margin: 0 0 0.65em; }      /* 段落间距 */
+ul, ol { margin: 0 0 0.75em; } /* 列表整体间距 */
+li { margin-bottom: 0.15em; }  /* 列表项之间间距 */
+hr { margin: 1.0em 0; }        /* 分割线上下间距 */
 
 .page__content { margin-top: 0.6em; }
 .page__content > :first-child { margin-top: 0; }
 
-/* 3) Headings smaller & tighter */
-.page__title { font-size: 1.8rem; margin-bottom: 0.4em; }
-h1 { font-size: 1.8rem; margin: 0.9em 0 0.35em; }
-h2 { font-size: 1.35rem; margin: 0.9em 0 0.35em; }
-h3 { font-size: 1.15rem; margin: 0.8em 0 0.3em; }
+/* 3）标题缩小并压缩间距 */
+.page__title { 
+  font-size: 1.8rem; 
+  margin-bottom: 0.4em; 
+}
 
-/* 4) Make the main column feel denser */
-.page { max-width: 1020px; }       /* 980-1100 都可以按喜好调 */
+h1 { 
+  font-size: 1.8rem; 
+  margin: 0.9em 0 0.35em; 
+}
 
-/* 5) Sidebar: slightly narrower + compact text */
-.sidebar { width: 230px; }         /* 如果你觉得左侧太宽，改 210~240 */
-.author__name { font-size: 1.15rem; margin-bottom: 0.25em; }
-.author__bio,
-.author__content { font-size: 0.9rem; line-height: 1.45; }
-.author__urls { font-size: 0.9rem; }
-.author__urls li { margin-bottom: 0.2em; }
+h2 { 
+  font-size: 1.35rem; 
+  margin: 0.9em 0 0.35em; 
+}
 
-/* 6) Publications / archive list tighter */
-.archive__item { margin-bottom: 0.65em; }
-.archive__item-title { font-size: 1.05rem; line-height: 1.35; margin: 0 0 0.15em; }
-.archive__item-excerpt { font-size: 0.92rem; line-height: 1.45; margin-top: 0.15em; }
+h3 { 
+  font-size: 1.15rem; 
+  margin: 0.8em 0 0.3em; 
+}
 
-/* 7) Tables & code blocks slightly smaller */
-table { font-size: 0.92rem; }
-pre, code { font-size: 0.9em; }
+/* 4）控制页面整体最大宽度，使版面更紧凑 */
+.page { 
+  max-width: 1020px;   /* 可在 980~1100 之间调整 */
+}
 
-/* 8) Optional: make navigation a bit slimmer */
-.masthead { padding-top: 0.4rem; padding-bottom: 0.4rem; }
-.greedy-nav a { padding-top: 0.35rem; padding-bottom: 0.35rem; }
+/* 5）左侧侧栏压缩（桌面端生效） */
+@media (min-width: 64em) {
+
+  /* 缩窄侧栏整体宽度 */
+  .sidebar {
+    width: 200px !important;        /* 推荐 190~210 之间 */
+    padding-right: 10px !important; /* 减少右侧空白 */
+  }
+
+  /* 让正文区域左移，与新侧栏宽度匹配 */
+  .page__content {
+    margin-left: 220px !important;  /* 略大于 sidebar 宽度 */
+  }
+}
+
+/* 减少侧栏内部留白 */
+.author__content {
+  padding: 0 !important;
+}
+
+.author__bio {
+  margin-bottom: 0.5em !important;
+}
+
+.author__urls {
+  font-size: 0.9rem;
+  margin-top: 0.3em !important;
+}
+
+.author__urls li {
+  margin-bottom: 0.2em;
+}
+
+.author__name { 
+  font-size: 1.15rem; 
+  margin-bottom: 0.25em; 
+}
+
+/* 6）Publication / Archive 列表更紧凑 */
+.archive__item { 
+  margin-bottom: 0.65em; 
+}
+
+.archive__item-title { 
+  font-size: 1.05rem; 
+  line-height: 1.35; 
+  margin: 0 0 0.15em; 
+}
+
+.archive__item-excerpt { 
+  font-size: 0.92rem; 
+  line-height: 1.45; 
+  margin-top: 0.15em; 
+}
+
+/* 7）表格与代码块字体略微缩小 */
+table { 
+  font-size: 0.92rem; 
+}
+
+pre, code { 
+  font-size: 0.9em; 
+}
+
+/* 8）顶部导航栏高度略微压缩 */
+.masthead { 
+  padding-top: 0.4rem; 
+  padding-bottom: 0.4rem; 
+}
+
+.greedy-nav a { 
+  padding-top: 0.35rem; 
+  padding-bottom: 0.35rem; 
+}
