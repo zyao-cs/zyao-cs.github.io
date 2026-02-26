@@ -147,3 +147,39 @@ pre, code { font-size: 0.9em; }
 }
 
 
+/* =========================================================
+   两侧背景换色 + 中间白色“纸张”效果（参考图同款）
+   直接追加在你的 CSS 最后
+   ========================================================= */
+
+/* 1）页面左右两侧背景色 */
+body {
+  background: #e6e6e6;   /* 浅灰；想更深改 #dcdcdc，想更浅改 #f0f0f0 */
+}
+
+/* 2）中间内容区域：白底 + 边框 + 阴影（纸张感） */
+.initial-content {
+  background: #ffffff !important;
+  max-width: 1100px !important;      /* 关键：纸张宽度（950~1200 建议） */
+  margin: 2rem auto !important;      /* 上下留白 */
+  padding: 2rem 2.2rem !important;   /* 纸张内边距 */
+
+  border: 1px solid #d0d0d0 !important;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08) !important;
+  border-radius: 2px !important;
+}
+
+/* 3）页头/页脚也跟着纸张宽度对齐（可选但更统一） */
+.masthead__inner-wrap,
+.footer__inner-wrap {
+  max-width: 1100px !important;
+}
+
+/* 4）移动端别太挤 */
+@media (max-width: 40em) {
+  .initial-content {
+    margin: 0.8rem auto !important;
+    padding: 1.2rem 1rem !important;
+  }
+}
+
