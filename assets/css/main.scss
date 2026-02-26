@@ -41,10 +41,9 @@
     "vendor/font-awesome/brands"
 ;
 
-
 /* =========================================================
-   AcademicPages 美化（Times 学术风整合版）
-   包含：Times 字体 + 紧凑排版 + 两侧灰底 + 中间白纸 + 稳定两栏布局
+   AcademicPages 美化（Times 学术风整合版 - 修复“全站都灰”）
+   包含：Times 字体 + 紧凑排版 + 两侧灰底 + 中间白纸 + 页头页脚白底 + 稳定两栏布局
    放在 assets/css/main.scss 最底部
    ========================================================= */
 
@@ -55,14 +54,26 @@ html {
 
 /* 2）整体页面：Times 字体 + 两侧灰色背景 */
 body {
-  background: #e6e6e6;   /* 两侧背景颜色 */
+  background: #e6e6e6;   /* 页面两侧背景颜色 */
   font-family: "Times New Roman", Times, serif;
   font-size: 0.95rem;
   line-height: 1.55;
   color: #222;           /* 字体略深一点更清晰 */
 }
 
-/* 3）中间白色“纸张”效果（关键：加宽，避免变成细柱子） */
+/* 3）修复：确保页头/页脚/主内容区域不是灰底（关键）
+      说明：有些主题区域不在 initial-content 里，需要显式设白底 */
+.masthead,
+.footer,
+.page,
+.page__inner-wrap,
+.archive__inner-wrap,
+.masthead__inner-wrap,
+.footer__inner-wrap {
+  background: #ffffff !important;
+}
+
+/* 4）中间白色“纸张”效果（关键：加宽，避免变成细柱子） */
 .initial-content {
   background: #ffffff !important;
 
@@ -78,13 +89,16 @@ body {
   border-radius: 2px !important;
 }
 
-/* 页头页脚对齐纸张（更统一） */
+/* 5）页头/页脚宽度与纸张对齐（更统一）
+      说明：不加这句时，页头/页脚可能铺满整屏白底 */
 .masthead__inner-wrap,
 .footer__inner-wrap {
   max-width: 1400px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
-/* 4）减少垂直留白（更紧凑） */
+/* 6）减少垂直留白（更紧凑） */
 p { margin: 0 0 0.65em; }
 ul, ol { margin: 0 0 0.75em; }
 li { margin-bottom: 0.15em; }
@@ -93,13 +107,13 @@ hr { margin: 1em 0; }
 .page__content { margin-top: 0.6em; }
 .page__content > :first-child { margin-top: 0; }
 
-/* 5）标题微调（更像论文排版） */
+/* 7）标题微调（更像论文排版） */
 .page__title { font-size: 1.8rem; margin-bottom: 0.4em; }
 h1 { font-size: 1.8rem; margin: 0.9em 0 0.35em; }
 h2 { font-size: 1.35rem; margin: 0.9em 0 0.35em; }
 h3 { font-size: 1.15rem; margin: 0.8em 0 0.3em; }
 
-/* 6）两栏布局优化（桌面端：固定侧栏宽度 + 正文自适应，更稳定） */
+/* 8）两栏布局优化（桌面端：固定侧栏宽度 + 正文自适应，更稳定） */
 @media (min-width: 64em) {
   .sidebar {
     width: 240px !important;        /* 推荐 220~260 */
@@ -113,29 +127,34 @@ h3 { font-size: 1.15rem; margin: 0.8em 0 0.3em; }
   }
 }
 
-/* 7）Publication 列表更紧凑 */
+/* 9）Publication 列表更紧凑 */
 .archive__item { margin-bottom: 0.65em; }
 .archive__item-title { font-size: 1.05rem; line-height: 1.35; margin: 0 0 0.15em; }
 .archive__item-excerpt { font-size: 0.92rem; line-height: 1.45; margin-top: 0.15em; }
 
-/* 8）表格与代码略小 */
+/* 10）表格与代码略小 */
 table { font-size: 0.92rem; }
 pre, code { font-size: 0.9em; }
 
-/* 9）导航栏压缩 */
+/* 11）导航栏压缩 */
 .masthead { padding-top: 0.4rem; padding-bottom: 0.4rem; }
 .greedy-nav a { padding-top: 0.35rem; padding-bottom: 0.35rem; }
 
-/* 10）头像稍微缩小（可按喜好调） */
+/* 12）头像稍微缩小（可按喜好调） */
 .author__avatar img {
   max-width: 135px !important;  /* 推荐 125~145 */
 }
 
-/* 11）移动端优化 */
+/* 13）移动端优化 */
 @media (max-width: 40em) {
   .initial-content {
     margin: 0.8rem auto !important;
     padding: 1.2rem 1rem !important;
     width: calc(100% - 1.4rem) !important;
+  }
+
+  .masthead__inner-wrap,
+  .footer__inner-wrap {
+    max-width: calc(100% - 1.4rem) !important;
   }
 }
