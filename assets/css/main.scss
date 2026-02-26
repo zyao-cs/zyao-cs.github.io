@@ -42,8 +42,8 @@
 ;
 
 /* =========================================================
-   AcademicPages 美化（Times 学术风整合版 - 横栏与内容无缝白纸）
-   包含：Times 字体 + 紧凑排版 + 两侧灰底 + 中间白纸 + 页头页脚白底 + 稳定两栏布局
+   AcademicPages 美化（Times 学术风最终整合版 - 顶部横栏与纸张无缝）
+   包含：Times 字体 + 紧凑排版 + 两侧灰底 + 中间白纸 + 顶部横栏同宽无缝 + 页头页脚白底 + 稳定两栏布局
    放在 assets/css/main.scss 最底部
    ========================================================= */
 
@@ -63,52 +63,76 @@ body {
 
 /* 3）修复：确保页头/页脚/主内容区域不是灰底（关键）
       说明：有些主题区域不在 initial-content 里，需要显式设白底 */
-.masthead,
 .footer,
 .page,
 .page__inner-wrap,
 .archive__inner-wrap,
-.masthead__inner-wrap,
 .footer__inner-wrap {
   background: #ffffff !important;
 }
 
-/* 3.1）无缝效果：去掉横栏下方可能的分隔线/外边距（避免出现“断层感”）
-   如果你喜欢分隔线，可以删掉 border-bottom 这一行 */
+/* =========================================================
+   A）顶部横栏（masthead）与纸张无缝：解决你截图红框那条灰色间隔
+   ========================================================= */
+
+/* 4）masthead 外层不铺白：让两侧灰色正常显示 */
 .masthead {
+  background: transparent !important; /* 外层透明，避免全屏白条 */
   margin-bottom: 0 !important;
   border-bottom: 0 !important;
+  box-shadow: none !important;
+  padding-bottom: 0 !important;
 }
 
-/* 4）中间白色“纸张”效果（关键：加宽，避免变成细柱子）
-      ★ 无缝关键：顶部 margin 必须为 0，避免露出灰色背景 ★ */
+/* 5）masthead 内层做成“纸张宽度”的白色条，并与下方内容无缝拼接 */
+.masthead__inner-wrap {
+  background: #ffffff !important;
+
+  max-width: 1400px !important;
+  width: calc(100% - 3rem) !important;
+  margin: 0 auto !important;
+
+  /* 让横栏和下方纸张连成一体 */
+  border-left: 1px solid #d0d0d0 !important;
+  border-right: 1px solid #d0d0d0 !important;
+  border-top: 1px solid #d0d0d0 !important;
+  border-bottom: 0 !important;
+  border-radius: 2px 2px 0 0 !important;
+}
+
+/* =========================================================
+   B）中间白色“纸张”区域（initial-content）
+   ========================================================= */
+
+/* 6）中间白色“纸张”效果（加宽 + 无缝）
+      无缝关键：顶部 margin 必须为 0；同时去掉顶部边框避免“双线” */
 .initial-content {
   background: #ffffff !important;
 
-  /* 纸张宽度（推荐 1300~1500） */
-  max-width: 1400px !important;
-  width: calc(100% - 3rem) !important;  /* 小屏自动收缩，避免贴边 */
+  max-width: 1400px !important;          /* 纸张宽度（推荐 1300~1500） */
+  width: calc(100% - 3rem) !important;   /* 小屏自动收缩，避免贴边 */
 
-  /* 无缝：顶部 0；底部保留 2rem */
-  margin: 0 auto 2rem auto !important;
-
+  margin: 0 auto 2rem auto !important;   /* 顶部 0：不露灰；底部保留间距 */
   padding: 2rem 2.2rem !important;
 
   border: 1px solid #d0d0d0 !important;
+  border-top: 0 !important;              /* 关键：上边框交给 masthead__inner-wrap */
   box-shadow: 0 8px 24px rgba(0,0,0,0.08) !important;
-  border-radius: 2px !important;
+  border-radius: 0 0 2px 2px !important; /* 顶部圆角交给 masthead；底部圆角留在内容 */
 }
 
-/* 5）页头/页脚宽度与纸张对齐（更统一）
-      说明：不加这句时，页头/页脚可能铺满整屏白底 */
-.masthead__inner-wrap,
+/* 7）页脚宽度与纸张对齐（更统一） */
 .footer__inner-wrap {
   max-width: 1400px !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
 
-/* 6）减少垂直留白（更紧凑） */
+/* =========================================================
+   C）紧凑排版与布局
+   ========================================================= */
+
+/* 8）减少垂直留白（更紧凑） */
 p { margin: 0 0 0.65em; }
 ul, ol { margin: 0 0 0.75em; }
 li { margin-bottom: 0.15em; }
@@ -117,13 +141,13 @@ hr { margin: 1em 0; }
 .page__content { margin-top: 0.6em; }
 .page__content > :first-child { margin-top: 0; }
 
-/* 7）标题微调（更像论文排版） */
+/* 9）标题微调（更像论文排版） */
 .page__title { font-size: 1.8rem; margin-bottom: 0.4em; }
 h1 { font-size: 1.8rem; margin: 0.9em 0 0.35em; }
 h2 { font-size: 1.35rem; margin: 0.9em 0 0.35em; }
 h3 { font-size: 1.15rem; margin: 0.8em 0 0.3em; }
 
-/* 8）两栏布局优化（桌面端：固定侧栏宽度 + 正文自适应，更稳定） */
+/* 10）两栏布局优化（桌面端：固定侧栏宽度 + 正文自适应，更稳定） */
 @media (min-width: 64em) {
   .sidebar {
     width: 240px !important;        /* 推荐 220~260 */
@@ -137,33 +161,42 @@ h3 { font-size: 1.15rem; margin: 0.8em 0 0.3em; }
   }
 }
 
-/* 9）Publication 列表更紧凑 */
+/* 11）Publication 列表更紧凑 */
 .archive__item { margin-bottom: 0.65em; }
 .archive__item-title { font-size: 1.05rem; line-height: 1.35; margin: 0 0 0.15em; }
 .archive__item-excerpt { font-size: 0.92rem; line-height: 1.45; margin-top: 0.15em; }
 
-/* 10）表格与代码略小 */
+/* 12）表格与代码略小 */
 table { font-size: 0.92rem; }
 pre, code { font-size: 0.9em; }
 
-/* 11）导航栏压缩 */
-.masthead { padding-top: 0.4rem; padding-bottom: 0.4rem; }
+/* 13）导航栏压缩（作用于 masthead 内部导航） */
 .greedy-nav a { padding-top: 0.35rem; padding-bottom: 0.35rem; }
 
-/* 12）头像稍微缩小（可按喜好调） */
+/* 14）头像稍微缩小（可按喜好调） */
 .author__avatar img {
   max-width: 135px !important;  /* 推荐 125~145 */
 }
 
-/* 13）移动端优化 */
+/* =========================================================
+   D）移动端优化
+   ========================================================= */
 @media (max-width: 40em) {
-  .initial-content {
-    margin: 0 auto 1rem auto !important; /* 移动端同样顶部无缝 */
-    padding: 1.2rem 1rem !important;
+
+  /* 顶部横栏内层也要跟随小屏宽度 */
+  .masthead__inner-wrap {
     width: calc(100% - 1.4rem) !important;
+    max-width: calc(100% - 1.4rem) !important;
   }
 
-  .masthead__inner-wrap,
+  /* 内容纸张也跟随小屏宽度 */
+  .initial-content {
+    margin: 0 auto 1rem auto !important;
+    padding: 1.2rem 1rem !important;
+    width: calc(100% - 1.4rem) !important;
+    max-width: calc(100% - 1.4rem) !important;
+  }
+
   .footer__inner-wrap {
     max-width: calc(100% - 1.4rem) !important;
   }
