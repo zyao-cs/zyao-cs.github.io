@@ -43,8 +43,8 @@
 
 
 /* =========================================================
-   AcademicPages 美化（Times 学术风最终版）
-   包含：Times 字体 + 紧凑排版 + 两侧灰底 + 中间白纸
+   AcademicPages 美化（Times 学术风整合版）
+   包含：Times 字体 + 紧凑排版 + 两侧灰底 + 中间白纸 + 稳定两栏布局
    放在 assets/css/main.scss 最底部
    ========================================================= */
 
@@ -59,13 +59,17 @@ body {
   font-family: "Times New Roman", Times, serif;
   font-size: 0.95rem;
   line-height: 1.55;
-  color: #222;          /* 字体略深一点更清晰 */
+  color: #222;           /* 字体略深一点更清晰 */
 }
 
-/* 3）中间白色“纸张”效果 */
+/* 3）中间白色“纸张”效果（关键：加宽，避免变成细柱子） */
 .initial-content {
   background: #ffffff !important;
-  max-width: 1050px !important;   /* 推荐 950~1150 */
+
+  /* 纸张宽度（推荐 1300~1500） */
+  max-width: 1400px !important;
+  width: calc(100% - 3rem) !important;  /* 小屏自动收缩，避免贴边 */
+
   margin: 2rem auto !important;
   padding: 2rem 2.2rem !important;
 
@@ -74,10 +78,10 @@ body {
   border-radius: 2px !important;
 }
 
-/* 页头页脚对齐纸张 */
+/* 页头页脚对齐纸张（更统一） */
 .masthead__inner-wrap,
 .footer__inner-wrap {
-  max-width: 1050px !important;
+  max-width: 1400px !important;
 }
 
 /* 4）减少垂直留白（更紧凑） */
@@ -91,21 +95,20 @@ hr { margin: 1em 0; }
 
 /* 5）标题微调（更像论文排版） */
 .page__title { font-size: 1.8rem; margin-bottom: 0.4em; }
-
 h1 { font-size: 1.8rem; margin: 0.9em 0 0.35em; }
 h2 { font-size: 1.35rem; margin: 0.9em 0 0.35em; }
 h3 { font-size: 1.15rem; margin: 0.8em 0 0.3em; }
 
-/* 6）两栏比例优化（桌面端） */
+/* 6）两栏布局优化（桌面端：固定侧栏宽度 + 正文自适应，更稳定） */
 @media (min-width: 64em) {
   .sidebar {
-    width: 18% !important;       /* 推荐 16%~20% */
+    width: 240px !important;        /* 推荐 220~260 */
     padding-left: 0 !important;
-    padding-right: 8px !important;
+    padding-right: 16px !important; /* 稍微留点间距更舒服 */
   }
 
   .page__content {
-    width: 82% !important;
+    width: calc(100% - 240px) !important;
     margin-left: 0 !important;
   }
 }
@@ -123,9 +126,9 @@ pre, code { font-size: 0.9em; }
 .masthead { padding-top: 0.4rem; padding-bottom: 0.4rem; }
 .greedy-nav a { padding-top: 0.35rem; padding-bottom: 0.35rem; }
 
-/* 10）头像稍微缩小 */
+/* 10）头像稍微缩小（可按喜好调） */
 .author__avatar img {
-  max-width: 135px !important;
+  max-width: 135px !important;  /* 推荐 125~145 */
 }
 
 /* 11）移动端优化 */
@@ -133,5 +136,6 @@ pre, code { font-size: 0.9em; }
   .initial-content {
     margin: 0.8rem auto !important;
     padding: 1.2rem 1rem !important;
+    width: calc(100% - 1.4rem) !important;
   }
 }
