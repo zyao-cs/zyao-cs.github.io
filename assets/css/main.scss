@@ -42,7 +42,7 @@
 ;
 
 /* =========================================================
-   AcademicPages 美化（Times 学术风整合版 - 修复“全站都灰”）
+   AcademicPages 美化（Times 学术风整合版 - 横栏与内容无缝白纸）
    包含：Times 字体 + 紧凑排版 + 两侧灰底 + 中间白纸 + 页头页脚白底 + 稳定两栏布局
    放在 assets/css/main.scss 最底部
    ========================================================= */
@@ -73,7 +73,15 @@ body {
   background: #ffffff !important;
 }
 
-/* 4）中间白色“纸张”效果（关键：加宽，避免变成细柱子） */
+/* 3.1）无缝效果：去掉横栏下方可能的分隔线/外边距（避免出现“断层感”）
+   如果你喜欢分隔线，可以删掉 border-bottom 这一行 */
+.masthead {
+  margin-bottom: 0 !important;
+  border-bottom: 0 !important;
+}
+
+/* 4）中间白色“纸张”效果（关键：加宽，避免变成细柱子）
+      ★ 无缝关键：顶部 margin 必须为 0，避免露出灰色背景 ★ */
 .initial-content {
   background: #ffffff !important;
 
@@ -81,7 +89,9 @@ body {
   max-width: 1400px !important;
   width: calc(100% - 3rem) !important;  /* 小屏自动收缩，避免贴边 */
 
-  margin: 2rem auto !important;
+  /* 无缝：顶部 0；底部保留 2rem */
+  margin: 0 auto 2rem auto !important;
+
   padding: 2rem 2.2rem !important;
 
   border: 1px solid #d0d0d0 !important;
@@ -148,7 +158,7 @@ pre, code { font-size: 0.9em; }
 /* 13）移动端优化 */
 @media (max-width: 40em) {
   .initial-content {
-    margin: 0.8rem auto !important;
+    margin: 0 auto 1rem auto !important; /* 移动端同样顶部无缝 */
     padding: 1.2rem 1rem !important;
     width: calc(100% - 1.4rem) !important;
   }
