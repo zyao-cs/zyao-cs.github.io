@@ -16,8 +16,10 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 
 
 
-Research Interests
-----
+
+
+<h2 id="research">Research Interests</h2>
+
 - Blockchain Technology
 - Machine Learning
 - Energy Management
@@ -25,8 +27,9 @@ Research Interests
 
 
 
-Education
-----
+
+<h2 id="education">Education</h2>
+
 - **Aalborg University, Denmark** - Guest Ph.D. 
   - Dec. 2023 – Dec. 2025
   - Major: Computer Science, Aalborg, Denmark
@@ -48,9 +51,8 @@ Education
 
 
 
+<h2 id="publications">Publications</h2>
 
-Publications
-----
 - **Zhongming Yao**, Tianyi Li, Junchang Xin, Yushuai Li, Chenxu Wang, Zhiqiong Wang, Divesh Srivastava, Christian S Jensen. VGQ: Enabling Verifiable Graph Queries on Blockchain Systems. _The IEEE International Conference on Data Engineering (ICDE)_, 2025.
 - Ziming Liu, Bonan Huang, Cheng Zhang, **Zhongming Yao**, Tianyi Li, Qiuye Sun, Yushuai Li. Clustered Federated Learning for Energy-Harvesting Smart Meters in P2P Energy Trading. _IEEE Transactions on Green Communications and Networking (TGCN)_, 2025.
 - Tianyi Li, Yushuai Li, Yumeng Song, **Zhongming Yao**, Wei Gao, David Wenzhong Gao. Networked Digital Twins for Autonomous Vehicles: A New Perspective. _IEEE Transactions on Intelligent Vehicles (TIV)_, 2024.
@@ -64,8 +66,11 @@ Publications
 
 
 
-Academic Services
-----
+
+
+
+<h2 id="academic">Academic Services</h2>
+
 - Program Committee \[AAAI Conference on Artificial Intelligence (AAAI)\]
 - Reviewer \[Distributed and Parallel Databases (DPD)\]
 - Reviewer \[IEEE Network\]
@@ -76,9 +81,7 @@ Academic Services
 - Reviewer \[World Wide Web: Internet and Web Information Systems (WWWJ)\]
 
 
-<!-- <h2 id="CV">CV</h2> -->
+<h2 id="cv">CV</h2>
 
-CV
-----
 [Download my CV here](/CV_zyao1.pdf)
 
