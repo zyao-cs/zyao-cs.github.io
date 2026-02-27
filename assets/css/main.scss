@@ -41,8 +41,14 @@
     "vendor/font-awesome/brands"
 ;
 
-/* =========================================================
-   AcademicPages 简洁稳定增强版（更宽 + 更稳 + 不乱位）
+//* =========================================================
+   AcademicPages 简洁稳定版（全白背景 + Times + 正文加宽，减少过早换行）
+   功能：
+   1）全站白色背景
+   2）Times 字体
+   3）紧凑排版
+   4）正文尽量加宽（减少 Publication 过早换行）
+   放在 assets/css/main.scss 最底部
    ========================================================= */
 
 /* 1）基础字号 */
@@ -57,7 +63,7 @@ body {
   color: #222;
 }
 
-/* 3）白色容器 */
+/* 3）确保所有容器也是白色（防止主题自带灰） */
 .masthead,
 .footer,
 .page,
@@ -67,16 +73,16 @@ body {
   background: #ffffff !important;
 }
 
-/* 4）整体最大宽度（想更宽改这里） */
+/* 4）整体内容区域最大宽度（更开阔；想更宽可调大） */
 .initial-content,
 .masthead__inner-wrap,
 .footer__inner-wrap {
-  max-width: 1900px !important;   /* 比 1700 更宽 */
+  max-width: 1700px !important;   /* 建议 1600~1900，越大越不早换行 */
   margin-left: auto !important;
   margin-right: auto !important;
 }
 
-/* 5）排版紧凑 */
+/* 5）减少垂直留白（更紧凑） */
 p { margin: 0 0 0.65em; }
 ul, ol { margin: 0 0 0.75em; }
 li { margin-bottom: 0.15em; }
@@ -85,59 +91,65 @@ hr { margin: 1em 0; }
 .page__content { margin-top: 0.6em; }
 .page__content > :first-child { margin-top: 0; }
 
-/* 6）标题 */
+/* 6）标题微调 */
 .page__title { font-size: 1.8rem; margin-bottom: 0.4em; }
 h1 { font-size: 1.8rem; margin: 0.9em 0 0.35em; }
 h2 { font-size: 1.35rem; margin: 0.9em 0 0.35em; }
 h3 { font-size: 1.15rem; margin: 0.8em 0 0.3em; }
 
 /* =========================================================
-   核心升级：用 Flex 彻底控制两栏布局（推荐）
+   7.0）关键修复（正确版）：保持主题两栏结构，但让正文真正变宽
+   主题在 @media (min-width: 57.8125em) 下给 .page 设置 width: 83% + float:right
+   我们改成：.page = 100% - sidebar宽度，并放开 .page__inner-wrap 的 max-width
    ========================================================= */
-
 @media (min-width: 57.8125em) {
 
-  /* 取消主题 float 机制 */
-  .page,
+  /* 侧栏：固定宽度（你也可以改成 160~220） */
   .sidebar {
-    float: none !important;
+    width: 180px !important;
   }
 
-  /* 用 flex 控制结构 */
-  .page__inner-wrap {
-    display: flex !important;
-    align-items: flex-start;
-  }
-
-  /* 侧栏宽度（想更窄改这里） */
-  .sidebar {
-    flex: 0 0 160px !important;   /* 原来 180，我帮你调小一点 */
-  }
-
-  /* 蓝色区域自动吃满剩余空间 */
+  /* 右侧正文大容器（蓝色区域）：吃满剩余空间 */
   .page {
-    flex: 1 !important;
-    width: auto !important;
-    padding-left: 20px !important;
+    float: right !important;                    /* 关键：不要取消 float，否则布局会乱 */
+    width: calc(100% - 180px) !important;       /* 关键：替代主题的 83% */
+    padding-left: 0 !important;                 /* 去掉主题额外 padding */
+    margin-right: 0 !important;
   }
 
-  /* 解除内部宽度限制 */
-  .page__inner-wrap,
-  .page__content {
+  /* 解除内部 max-width（很多时候内层还会卡 1000px） */
+  .page__inner-wrap {
     max-width: none !important;
   }
 }
 
-/* 8）Publication 紧凑 */
+/* =========================================================
+   7）桌面端布局优化：进一步减少过早换行（可选微调）
+   ========================================================= */
+@media (min-width: 64em) {
+
+  /* 侧栏再窄一点，给正文让空间（可调 160~200） */
+  .sidebar {
+    width: 180px !important;
+    padding-right: 12px !important;
+  }
+
+  /* 正文内容区（红色区域）微调：避免 sidebar padding 造成轻微挤压/溢出 */
+  .page__content {
+    max-width: none !important;
+    width: calc(100% - 12px) !important;  /* 让内容区吃满 page 内部宽度，留出一点余量 */
+    margin-left: 0 !important;
+  }
+}
+
+/* 8）Publication 列表紧凑 */
 .archive__item { margin-bottom: 0.65em; }
 .archive__item-title { font-size: 1.05rem; line-height: 1.35; }
 .archive__item-excerpt { font-size: 0.92rem; }
 
-/* 9）表格与代码 */
+/* 9）表格与代码略小 */
 table { font-size: 0.92rem; }
 pre, code { font-size: 0.9em; }
 
-/* 10）头像 */
-.author__avatar img {
-  max-width: 135px !important;
-}
+/* 10）头像大小 */
+.author__avatar img { max-width: 135px !important; }
