@@ -70,7 +70,7 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 - Reviewer \[World Wide Web: Internet and Web Information Systems (WWWJ)\]
 
 
-<h2 id="CV">CV</h2>
+<h2 id="cv">CV</h2>
 
 [Download my CV here](/CV_zyao1.pdf)
 
