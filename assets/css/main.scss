@@ -42,12 +42,13 @@
 ;
 
 /* =========================================================
-   AcademicPages 简洁稳定版（全白背景 + Times + 正文加宽）
+   AcademicPages 简洁稳定版（全白背景 + Times + 正文加宽，减少过早换行）
    功能：
    1）全站白色背景
    2）Times 字体
    3）紧凑排版
-   4）正文加宽，避免过早换行
+   4）正文尽量加宽（减少 Publication 过早换行）
+   放在 assets/css/main.scss 最底部
    ========================================================= */
 
 /* 1）基础字号 */
@@ -74,11 +75,11 @@ body {
   background: #ffffff !important;
 }
 
-/* 4）整体内容区域最大宽度（让页面更开阔） */
+/* 4）整体内容区域最大宽度（更开阔；想更宽可调大） */
 .initial-content,
 .masthead__inner-wrap,
 .footer__inner-wrap {
-  max-width: 1500px !important;   /* 可调 1400~1700 */
+  max-width: 1700px !important;   /* 建议 1600~1900，越大越不早换行 */
   margin-left: auto !important;
   margin-right: auto !important;
 }
@@ -99,21 +100,20 @@ h2 { font-size: 1.35rem; margin: 0.9em 0 0.35em; }
 h3 { font-size: 1.15rem; margin: 0.8em 0 0.3em; }
 
 /* =========================================================
-   7）桌面端布局优化：修复正文过早换行
+   7）桌面端布局优化：正文尽量加宽（关键）
    ========================================================= */
-
 @media (min-width: 64em) {
 
-  /* 侧栏缩窄 */
+  /* 侧栏再窄一点，给正文让空间（可调 160~200） */
   .sidebar {
-    width: 200px !important;   /* 原来 240，改为 200 */
+    width: 180px !important;
     padding-right: 12px !important;
   }
 
-  /* 正文吃掉更多空间 */
+  /* 正文吃满剩余宽度（关键：不要 max-width 限制） */
   .page__content {
-    width: calc(100% - 200px) !important;
-    max-width: 1000px !important;   /* 控制最佳阅读宽度 */
+    width: calc(100% - 180px) !important;
+    max-width: none !important;     /* 关键：取消 1000px 限制，避免过早换行 */
     margin-left: 0 !important;
   }
 }
