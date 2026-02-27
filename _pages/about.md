@@ -1,6 +1,7 @@
 ---
 permalink: /
 author_profile: true
+titel: "Zhongming Yao (姚钟铭)"
 redirect_from: 
   - /about/
   - /about.html
@@ -13,15 +14,17 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 
 
 
-<h2 id="research">Research Interests</h2>
-
+<!-- <h2 id="research">Research Interests</h2> -->
+Research Interests
+----
 - Blockchain Technology
 - Machine Learning
 - Energy Management
 
 
-<h2 id="education">Education</h2>
-
+<!-- <h2 id="education">Education</h2> -->
+Education
+----
 - **Aalborg University, Denmark** - Guest Ph.D. 
   - Dec. 2023 – Dec. 2025
   - Major: Computer Science, Aalborg, Denmark
@@ -42,8 +45,9 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
   - Major: Computer Science and Technology, Shenyang, China
 
 
-<h2 id="publications">Publications</h2>
-
+<!-- <h2 id="publications">Publications</h2> -->
+Publications
+----
 - **Zhongming Yao**, Tianyi Li, Junchang Xin, Yushuai Li, Chenxu Wang, Zhiqiong Wang, Divesh Srivastava, Christian S Jensen.
   VGQ: Enabling Verifiable Graph Queries on Blockchain Systems.
    _The IEEE International Conference on Data Engineering (ICDE)_, 2025.
@@ -57,8 +61,9 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 - Sihan Dong, Junchang Xin, Kun Hao, **Zhongming Yao**, Jinyi Chen. A join query optimization algorithm in multi-blockchain environment. _Journal of Zhejiang University (Engineering Science)_, 2021. (In Chinese)
 
 
-<h2 id="academic">Academic Services</h2>
-
+<!-- <h2 id="academic">Academic Services</h2> -->
+Academic Services
+----
 - Program Committee \[AAAI Conference on Artificial Intelligence (AAAI)\]
 - Reviewer \[Distributed and Parallel Databases (DPD)\]
 - Reviewer \[IEEE Network\]
@@ -69,7 +74,9 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 - Reviewer \[World Wide Web: Internet and Web Information Systems (WWWJ)\]
 
 
-<h2 id="CV">CV</h2>
+<!-- <h2 id="CV">CV</h2> -->
 
+CV
+----
 [Download my CV here](/CV_zyao1.pdf)
 
