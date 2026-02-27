@@ -18,6 +18,15 @@ Research Interests
 - Energy Management
 
 
+<h2 id="research">Research Interests</h2>
+
+- Blockchain Technology
+- Machine Learning
+- Energy Management
+
+<h2 id="education">Education</h2>
+
+
 Education
 ------
 - **Aalborg University, Denmark** - Guest Ph.D. 
