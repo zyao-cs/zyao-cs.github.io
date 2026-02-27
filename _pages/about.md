@@ -11,11 +11,7 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 
 <!-- I am a Ph.D. student at the School of Computer Science and Engineering, Northeastern University, China, under the supervision of Professor [Junchang Xin](http://faculty.neu.edu.cn/xinjunchang/zh_CN/index.htm). Meanwhile, I am a guest Ph.D. student at the Department of Computer Science, Aalborg University, Denmark, hosted by Associate Professor [Tianyi Li](http://tianyili.site/).-->
 
-Research Interests
-------
-- Blockchain Technology
-- Machine Learning
-- Energy Management
+
 
 
 <h2 id="research">Research Interests</h2>
@@ -24,11 +20,9 @@ Research Interests
 - Machine Learning
 - Energy Management
 
+
 <h2 id="education">Education</h2>
 
-
-Education
-------
 - **Aalborg University, Denmark** - Guest Ph.D. 
   - Dec. 2023 – Dec. 2025
   - Major: Computer Science, Aalborg, Denmark
@@ -48,8 +42,9 @@ Education
   - Sep. 2013 – Jul. 2017
   - Major: Computer Science and Technology, Shenyang, China
 
-Publications
-------
+
+<h2 id="publications">Publications</h2>
+
 - **Zhongming Yao**, Tianyi Li, Junchang Xin, Yushuai Li, Chenxu Wang, Zhiqiong Wang, Divesh Srivastava, Christian S Jensen.
   VGQ: Enabling Verifiable Graph Queries on Blockchain Systems.
    _The IEEE International Conference on Data Engineering (ICDE)_, 2025.
@@ -62,8 +57,9 @@ Publications
 - Kun Hao, Junchang Xin, Zhiqiong Wang, **Zhongming Yao**, Guoren Wang. On efficient top-k transaction path query processing in blockchain database. _Data & Knowledge Engineering (DKE)_, 2022.
 - Sihan Dong, Junchang Xin, Kun Hao, **Zhongming Yao**, Jinyi Chen. A join query optimization algorithm in multi-blockchain environment. _Journal of Zhejiang University (Engineering Science)_, 2021. (In Chinese)
 
-Academic Services
-------
+
+<h2 id="academic">Academic Services</h2>
+
 - Program Committee \[AAAI Conference on Artificial Intelligence (AAAI)\]
 - Reviewer \[Distributed and Parallel Databases (DPD)\]
 - Reviewer \[IEEE Network\]
@@ -73,7 +69,8 @@ Academic Services
 - Reviewer \[IEEE Transactions on Industrial Informatics (TII)\]
 - Reviewer \[World Wide Web: Internet and Web Information Systems (WWWJ)\]
 
-CV
-------
+
+<h2 id="CV">CV</h2>
+
 [Download my CV here](/CV_zyao1.pdf)
 
