@@ -19,12 +19,9 @@ main:
     
   - title: "Academic Services"
     url: /#academic
-        
-#   - title: "Blog Posts"
-#     url: /year-archive/
     
   - title: "CV"
-    url: /cv/
+    url: /#CV
     
 #   # - title: "CV"
 #   #   url: /cv-json/
