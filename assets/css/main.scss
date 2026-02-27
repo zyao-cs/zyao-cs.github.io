@@ -52,9 +52,7 @@
    ========================================================= */
 
 /* 1）基础字号 */
-html {
-  font-size: 15px;
-}
+html { font-size: 15px; }
 
 /* 2）全站白色背景 */
 body {
@@ -100,20 +98,33 @@ h2 { font-size: 1.35rem; margin: 0.9em 0 0.35em; }
 h3 { font-size: 1.15rem; margin: 0.8em 0 0.3em; }
 
 /* =========================================================
-   7.0）关键修复：解除主题对 article.page 的 83% 宽度限制（导致早换行）
+   7.0）关键修复（正确版）：保持主题两栏结构，但让正文真正变宽
    主题在 @media (min-width: 57.8125em) 下给 .page 设置 width: 83% + float:right
+   我们改成：.page = 100% - sidebar宽度，并放开 .page__inner-wrap 的 max-width
    ========================================================= */
 @media (min-width: 57.8125em) {
+
+  /* 侧栏：固定宽度（你也可以改成 160~220） */
+  .sidebar {
+    width: 180px !important;
+  }
+
+  /* 右侧正文大容器（蓝色区域）：吃满剩余空间 */
   .page {
-    float: none !important;       /* 取消 float:right */
-    width: 100% !important;       /* 取消 83% */
-    padding-left: 0 !important;   /* 主题常塞一个左 padding，顺便清掉 */
+    float: right !important;                    /* 关键：不要取消 float，否则布局会乱 */
+    width: calc(100% - 180px) !important;       /* 关键：替代主题的 83% */
+    padding-left: 0 !important;                 /* 去掉主题额外 padding */
     margin-right: 0 !important;
+  }
+
+  /* 解除内部 max-width（很多时候内层还会卡 1000px） */
+  .page__inner-wrap {
+    max-width: none !important;
   }
 }
 
 /* =========================================================
-   7）桌面端布局优化：正文尽量加宽（关键）
+   7）桌面端布局优化：进一步减少过早换行（可选微调）
    ========================================================= */
 @media (min-width: 64em) {
 
@@ -123,12 +134,10 @@ h3 { font-size: 1.15rem; margin: 0.8em 0 0.3em; }
     padding-right: 12px !important;
   }
 
-  /* 正文吃满剩余宽度（关键：不要 max-width 限制）
-     这里减掉 12px 是把 sidebar 的 padding-right 也考虑进去，更稳；
-     如果你不想动，也可以改回 calc(100% - 180px) */
+  /* 正文内容区（红色区域）微调：避免 sidebar padding 造成轻微挤压/溢出 */
   .page__content {
-    width: calc(100% - 180px - 12px) !important;
-    max-width: none !important;     /* 关键：取消 1000px 限制，避免过早换行 */
+    max-width: none !important;
+    width: calc(100% - 12px) !important;  /* 让内容区吃满 page 内部宽度，留出一点余量 */
     margin-left: 0 !important;
   }
 }
@@ -143,6 +152,4 @@ table { font-size: 0.92rem; }
 pre, code { font-size: 0.9em; }
 
 /* 10）头像大小 */
-.author__avatar img {
-  max-width: 135px !important;
-}
+.author__avatar img { max-width: 135px !important; }
