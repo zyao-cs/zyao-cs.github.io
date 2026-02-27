@@ -1,7 +1,7 @@
 ---
 permalink: /
 author_profile: true
-titel: "Zhongming Yao (姚钟铭)"
+title: "Zhongming Yao (姚钟铭)"
 redirect_from: 
   - /about/
   - /about.html
