@@ -42,97 +42,48 @@
 ;
 
 /* =========================================================
-   AcademicPages 美化（Times 学术风最终整合版 - 顶部横栏与纸张无缝）
-   包含：Times 字体 + 紧凑排版 + 两侧灰底 + 中间白纸 + 顶部横栏同宽无缝 + 页头页脚白底 + 稳定两栏布局
-   放在 assets/css/main.scss 最底部
+   AcademicPages 简洁稳定版（全白背景 + Times + 正文加宽）
+   功能：
+   1）全站白色背景
+   2）Times 字体
+   3）紧凑排版
+   4）正文加宽，避免过早换行
    ========================================================= */
 
 /* 1）基础字号 */
 html {
-  font-size: 15px;  /* 14 更紧凑；15 更舒适 */
+  font-size: 15px;
 }
 
-/* 2）整体页面：Times 字体 + 两侧灰色背景 */
+/* 2）全站白色背景 */
 body {
-  background: #e6e6e6;   /* 页面两侧背景颜色 */
+  background: #ffffff !important;
   font-family: "Times New Roman", Times, serif;
   font-size: 0.95rem;
   line-height: 1.55;
-  color: #222;           /* 字体略深一点更清晰 */
+  color: #222;
 }
 
-/* 3）修复：确保页头/页脚/主内容区域不是灰底（关键）
-      说明：有些主题区域不在 initial-content 里，需要显式设白底 */
+/* 3）确保所有容器也是白色（防止主题自带灰） */
+.masthead,
 .footer,
 .page,
 .page__inner-wrap,
 .archive__inner-wrap,
-.footer__inner-wrap {
-  background: #ffffff !important;
-}
-
-/* =========================================================
-   A）顶部横栏（masthead）与纸张无缝：解决你截图红框那条灰色间隔
-   ========================================================= */
-
-/* 4）masthead 外层不铺白：让两侧灰色正常显示 */
-.masthead {
-  background: transparent !important; /* 外层透明，避免全屏白条 */
-  margin-bottom: 0 !important;
-  border-bottom: 0 !important;
-  box-shadow: none !important;
-  padding-bottom: 0 !important;
-}
-
-/* 5）masthead 内层做成“纸张宽度”的白色条，并与下方内容无缝拼接 */
-.masthead__inner-wrap {
-  background: #ffffff !important;
-
-  max-width: 1400px !important;
-  width: calc(100% - 3rem) !important;
-  margin: 0 auto !important;
-
-  /* 让横栏和下方纸张连成一体 */
-  border-left: 1px solid #d0d0d0 !important;
-  border-right: 1px solid #d0d0d0 !important;
-  border-top: 1px solid #d0d0d0 !important;
-  border-bottom: 0 !important;
-  border-radius: 2px 2px 0 0 !important;
-}
-
-/* =========================================================
-   B）中间白色“纸张”区域（initial-content）
-   ========================================================= */
-
-/* 6）中间白色“纸张”效果（加宽 + 无缝）
-      无缝关键：顶部 margin 必须为 0；同时去掉顶部边框避免“双线” */
 .initial-content {
   background: #ffffff !important;
-
-  max-width: 1400px !important;          /* 纸张宽度（推荐 1300~1500） */
-  width: calc(100% - 3rem) !important;   /* 小屏自动收缩，避免贴边 */
-
-  margin: 0 auto 2rem auto !important;   /* 顶部 0：不露灰；底部保留间距 */
-  padding: 2rem 2.2rem !important;
-
-  border: 1px solid #d0d0d0 !important;
-  border-top: 0 !important;              /* 关键：上边框交给 masthead__inner-wrap */
-  box-shadow: 0 8px 24px rgba(0,0,0,0.08) !important;
-  border-radius: 0 0 2px 2px !important; /* 顶部圆角交给 masthead；底部圆角留在内容 */
 }
 
-/* 7）页脚宽度与纸张对齐（更统一） */
+/* 4）整体内容区域最大宽度（让页面更开阔） */
+.initial-content,
+.masthead__inner-wrap,
 .footer__inner-wrap {
-  max-width: 1400px !important;
+  max-width: 1500px !important;   /* 可调 1400~1700 */
   margin-left: auto !important;
   margin-right: auto !important;
 }
 
-/* =========================================================
-   C）紧凑排版与布局
-   ========================================================= */
-
-/* 8）减少垂直留白（更紧凑） */
+/* 5）减少垂直留白（更紧凑） */
 p { margin: 0 0 0.65em; }
 ul, ol { margin: 0 0 0.75em; }
 li { margin-bottom: 0.15em; }
@@ -141,89 +92,42 @@ hr { margin: 1em 0; }
 .page__content { margin-top: 0.6em; }
 .page__content > :first-child { margin-top: 0; }
 
-/* 9）标题微调（更像论文排版） */
+/* 6）标题微调 */
 .page__title { font-size: 1.8rem; margin-bottom: 0.4em; }
 h1 { font-size: 1.8rem; margin: 0.9em 0 0.35em; }
 h2 { font-size: 1.35rem; margin: 0.9em 0 0.35em; }
 h3 { font-size: 1.15rem; margin: 0.8em 0 0.3em; }
 
-/* 10）两栏布局优化（桌面端：固定侧栏宽度 + 正文自适应，更稳定） */
+/* =========================================================
+   7）桌面端布局优化：修复正文过早换行
+   ========================================================= */
+
 @media (min-width: 64em) {
+
+  /* 侧栏缩窄 */
   .sidebar {
-    width: 240px !important;        /* 推荐 220~260 */
-    padding-left: 0 !important;
-    padding-right: 16px !important; /* 稍微留点间距更舒服 */
+    width: 200px !important;   /* 原来 240，改为 200 */
+    padding-right: 12px !important;
   }
 
+  /* 正文吃掉更多空间 */
   .page__content {
-    width: calc(100% - 240px) !important;
+    width: calc(100% - 200px) !important;
+    max-width: 1000px !important;   /* 控制最佳阅读宽度 */
     margin-left: 0 !important;
   }
 }
 
-/* 11）Publication 列表更紧凑 */
+/* 8）Publication 列表紧凑 */
 .archive__item { margin-bottom: 0.65em; }
-.archive__item-title { font-size: 1.05rem; line-height: 1.35; margin: 0 0 0.15em; }
-.archive__item-excerpt { font-size: 0.92rem; line-height: 1.45; margin-top: 0.15em; }
+.archive__item-title { font-size: 1.05rem; line-height: 1.35; }
+.archive__item-excerpt { font-size: 0.92rem; }
 
-/* 12）表格与代码略小 */
+/* 9）表格与代码略小 */
 table { font-size: 0.92rem; }
 pre, code { font-size: 0.9em; }
 
-/* 13）导航栏压缩（作用于 masthead 内部导航） */
-.greedy-nav a { padding-top: 0.35rem; padding-bottom: 0.35rem; }
-
-/* 14）头像稍微缩小（可按喜好调） */
+/* 10）头像大小 */
 .author__avatar img {
-  max-width: 135px !important;  /* 推荐 125~145 */
-}
-
-/* =========================================================
-   D）移动端优化
-   ========================================================= */
-@media (max-width: 40em) {
-
-  /* 顶部横栏内层也要跟随小屏宽度 */
-  .masthead__inner-wrap {
-    width: calc(100% - 1.4rem) !important;
-    max-width: calc(100% - 1.4rem) !important;
-  }
-
-  /* 内容纸张也跟随小屏宽度 */
-  .initial-content {
-    margin: 0 auto 1rem auto !important;
-    padding: 1.2rem 1rem !important;
-    width: calc(100% - 1.4rem) !important;
-    max-width: calc(100% - 1.4rem) !important;
-  }
-
-  .footer__inner-wrap {
-    max-width: calc(100% - 1.4rem) !important;
-  }
-}
-
-
-/* =========================================================
-   只消除“灰色间隙”：不压缩横栏、不改高度
-   原理：把横栏下方那块露出来的背景改成白色
-   ========================================================= */
-
-/* masthead 下方区域如果露出 body 灰色，就把它盖成白色 */
-.page,
-.page__inner-wrap,
-.archive__inner-wrap {
-  background: #ffffff !important;
-}
-
-/* 关键：把 initial-content 的上边距（如果有）变成 0，避免露出灰色 */
-.initial-content {
-  margin-top: 0 !important;
-}
-
-/* 如果主题在 initial-content 前插入了分隔元素/占位，也统一成白底 */
-.initial-content::before {
-  content: "" !important;
-  display: block !important;
-  height: 0 !important;
-  background: #ffffff !important;
+  max-width: 135px !important;
 }
