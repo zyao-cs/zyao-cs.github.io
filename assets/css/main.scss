@@ -201,3 +201,29 @@ pre, code { font-size: 0.9em; }
     max-width: calc(100% - 1.4rem) !important;
   }
 }
+
+
+/* =========================================================
+   只消除“灰色间隙”：不压缩横栏、不改高度
+   原理：把横栏下方那块露出来的背景改成白色
+   ========================================================= */
+
+/* masthead 下方区域如果露出 body 灰色，就把它盖成白色 */
+.page,
+.page__inner-wrap,
+.archive__inner-wrap {
+  background: #ffffff !important;
+}
+
+/* 关键：把 initial-content 的上边距（如果有）变成 0，避免露出灰色 */
+.initial-content {
+  margin-top: 0 !important;
+}
+
+/* 如果主题在 initial-content 前插入了分隔元素/占位，也统一成白底 */
+.initial-content::before {
+  content: "" !important;
+  display: block !important;
+  height: 0 !important;
+  background: #ffffff !important;
+}
