@@ -15,6 +15,7 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 
 
 <!-- <h2 id="research">Research Interests</h2> -->
+
 Research Interests
 ----
 - Blockchain Technology
@@ -23,6 +24,7 @@ Research Interests
 
 
 <!-- <h2 id="education">Education</h2> -->
+
 Education
 ----
 - **Aalborg University, Denmark** - Guest Ph.D. 
@@ -46,6 +48,7 @@ Education
 
 
 <!-- <h2 id="publications">Publications</h2> -->
+
 Publications
 ----
 - **Zhongming Yao**, Tianyi Li, Junchang Xin, Yushuai Li, Chenxu Wang, Zhiqiong Wang, Divesh Srivastava, Christian S Jensen.
@@ -62,6 +65,7 @@ Publications
 
 
 <!-- <h2 id="academic">Academic Services</h2> -->
+
 Academic Services
 ----
 - Program Committee \[AAAI Conference on Artificial Intelligence (AAAI)\]
