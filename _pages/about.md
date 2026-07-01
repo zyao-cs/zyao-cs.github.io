@@ -53,6 +53,17 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 
 <h2 id="publications">Publications</h2>
 
+- Qiuyang Li, Qian Ma, **Zhongming Yao**, Shikai Guo, Yu Gu, Ge Yu, Tianyi Li. ReCATS: Replay-Free Continual Anomaly Detection for Non-Stationary Multivariate Time Series. _ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)_, 2026.
+- Qian Ma, Linfei Dai, **Zhongming Yao**, Yu Gu, Tianyi Li, Christian S. Jensen, Ge Yu. Multimodal Knowledge Graph Completion via Relation-Aware Negative Sampling with Diffusion-based Interpolation. _International Conference on Very Large Data Bases (PVLDB)_, 2026.
+- Fengyu Li, Junhao Zhu, Kaishi Song, Lu Chen, **Zhongming Yao**, Tianyi Li, Christian S. Jensen. Replacing Multi-Step Assembly of Data Preparation Pipelines with One-Step LLM Pipeline Generation for Table QA. _International Conference on Very Large Data Bases (PVLDB)_, 2026.
+- Mo Li, Zhaosong Zhao, Linlin Ding, Renata Borovica-Gajic, **Zhongming Yao**, Jianxin Li. One-for-All Community Search on Unseen Graphs. _International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)_, 2026.
+- Jiachen Xu, Torben Bach Pedersen, **Zhongming Yao**, Tianyi Li, Yushuai Li. FOgym: A Bottom-Up Home Energy Management Framework Based on FlexOffers and Multi-Agent Reinforcement Learning. _ACM International Conference on Future and Sustainable Energy Systems (e-Energy)_, 2026.
+- Wentao Xu, **Zhongming Yao**, Weihao Li, Zhenghang Song, Yumeng Song, Tianyi Li, Yushuai Li. TCRL: Temporal-Coupled Adversarial Training for Robust Constrained Reinforcement Learning in Worst-Case Scenarios. _International Conference on Autonomous Agents and Multiagent Systems (AAMAS)_, 2026.
+- Yusen Mao, **Zhongming Yao**, Junchang Xin1, Chenchen Yan, Yumeng Song, Zhongzhong Jiang, and Zhiqiong Wang. EVT² : Efficient and Verifiable Trajectory Top-k Queries in Hybrid-Storage Blockchains. _APWeb-WAIM joint International Conference on Web and Big Data (APWeb-WAIM)_, 2026.
+- Chenchen Yan, **Zhongming Yao**, Zhiqiong Wang, Kun Hao, Yusen Mao, Yushuai Li, Tianyi Li, and Junchang Xin. FlexBC: A Flexible Blockchain Storage Mechanism Based on Data Hotness Features through Off-Chain Offloading. _International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems (BlockDys)_, 2026.
+- Qi Shen, Junchang Xin, Bing Tian Dai, **Zhongming Yao**, Xinyao Liu, Zhihong Huang, Zhiqiong Wang. Towards Heterogeneous Multimodal Sentiment Analysis with ASR Errors via Multi-Granularity Contrastive Coordination. _IEEE Transactions on Multimedia (TMM)_, 2026.
+- Jiaqi Tian, Bonan Huang, Tianyi Li, David Wenzhong Gao, **Zhongming Yao**, Yumeng Song, Yushuai Li. Digital Twin for Multitimescale Economic Dispatch in Cyber-Physical Energy Systems. _IEEE Transactions on Industrial Informatics (TII)_, 2026.
+- Xiaoyu Zhang, Qiuye Sun, Tianyi Li, Yumeng Song, **Zhongming Yao**, Yushuai Li. A Survey on Large Language Models Enhanced Reinforcement Learning for Smart Grid. _Journal of Modern Power Systems and Clean Energy (MPCE)_, 2026.
 - **Zhongming Yao**, Tianyi Li, Junchang Xin, Yushuai Li, Chenxu Wang, Zhiqiong Wang, Divesh Srivastava, Christian S Jensen. VGQ: Enabling Verifiable Graph Queries on Blockchain Systems. _The IEEE International Conference on Data Engineering (ICDE)_, 2025.
 - Ziming Liu, Bonan Huang, Cheng Zhang, **Zhongming Yao**, Tianyi Li, Qiuye Sun, Yushuai Li. Clustered Federated Learning for Energy-Harvesting Smart Meters in P2P Energy Trading. _IEEE Transactions on Green Communications and Networking (TGCN)_, 2025.
 - Tianyi Li, Yushuai Li, Yumeng Song, **Zhongming Yao**, Wei Gao, David Wenzhong Gao. Networked Digital Twins for Autonomous Vehicles: A New Perspective. _IEEE Transactions on Intelligent Vehicles (TIV)_, 2024.
@@ -71,12 +82,15 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 
 <h2 id="academic">Academic Services</h2>
 
-- Program Committee \[AAAI Conference on Artificial Intelligence (AAAI)\]
+- Program Committee \[IEEE International Conference on Data Engineering (ICDE)\] 2027
+- Program Committee \[AAAI Conference on Artificial Intelligence (AAAI)\] 2026, 2027
+- Program Committee \[International ACM Conference on Knowledge and Information Management (CIKM)\] 2026
+- Program Committee \[IEEE International Conference on Data Mining (ICDM)\] 2026
 - Reviewer \[Distributed and Parallel Databases (DPD)\]
 - Reviewer \[IEEE Network\]
-- Reviewer \[IEEE International Conference on Data Mining (ICDM)\]
+- Reviewer \[IEEE International Conference on Data Mining (ICDM)\] 2025
 - Reviewer \[The Journal of Supercomputing\]
-- Reviewer \[APWeb-WAIM joint International Conference on Web and Big Data (APWeb-WAIM)\]
+- Reviewer \[APWeb-WAIM joint International Conference on Web and Big Data (APWeb-WAIM)\] 2025, 2026
 - Reviewer \[IEEE Transactions on Industrial Informatics (TII)\]
 - Reviewer \[World Wide Web: Internet and Web Information Systems (WWWJ)\]
 
