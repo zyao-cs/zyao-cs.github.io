@@ -52,7 +52,7 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 
 
 <h2 id="publications">Publications</h2>
-†, denotes the corresponding author
+† denotes the corresponding author
 
 - Qiuyang Li, Qian Ma, **Zhongming Yao**, Shikai Guo, Yu Gu, Ge Yu, Tianyi Li. ReCATS: Replay-Free Continual Anomaly Detection for Non-Stationary Multivariate Time Series. _ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)_, 2026.
 - Qian Ma, Linfei Dai, **Zhongming Yao**, Yu Gu, Tianyi Li, Christian S. Jensen, Ge Yu. Multimodal Knowledge Graph Completion via Relation-Aware Negative Sampling with Diffusion-based Interpolation. _International Conference on Very Large Data Bases (PVLDB)_, 2026.
