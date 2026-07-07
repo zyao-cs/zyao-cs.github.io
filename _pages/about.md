@@ -87,8 +87,9 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 - Program Committee \[AAAI Conference on Artificial Intelligence (AAAI)\] 2026, 2027
 - Program Committee \[International ACM Conference on Knowledge and Information Management (CIKM)\] 2026
 - Program Committee \[IEEE International Conference on Data Mining (ICDM)\] 2026
-- Reviewer \[APWeb-WAIM joint International Conference on Web and Big Data (APWeb-WAIM)\] 2025, 2026
+- Program Committee \[APWeb-WAIM joint International Conference on Web and Big Data (APWeb-WAIM)\] 2026
 - Reviewer \[IEEE International Conference on Data Mining (ICDM)\] 2025
+- Reviewer \[APWeb-WAIM joint International Conference on Web and Big Data (APWeb-WAIM)\] 2025
 - Reviewer \[Distributed and Parallel Databases (DPD)\]
 - Reviewer \[IEEE Network\]
 - Reviewer \[The Journal of Supercomputing\]
