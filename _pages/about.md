@@ -100,5 +100,5 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 
 <h2 id="cv">CV</h2>
 
-[Download my CV here](/CV_zyao1.pdf)
+[Download my CV here](/CV_zyao_website.pdf)
 
