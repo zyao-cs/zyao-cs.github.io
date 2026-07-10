@@ -97,8 +97,7 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 - Reviewer \[IEEE Transactions on Industrial Informatics (TII)\]
 - Reviewer \[World Wide Web: Internet and Web Information Systems (WWWJ)\]
 
+ <!--<h2 id="cv">CV</h2>-->
 
-<h2 id="cv">CV</h2>
-
-[Download my CV here](/CV_zyao_website.pdf)
+ <!--[Download my CV here](/CV_zyao_website.pdf)-->
 
