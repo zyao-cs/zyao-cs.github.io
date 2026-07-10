@@ -34,18 +34,18 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 - **Northeastern University, China** - Ph.D. 
   - Sep. 2020 – Jan. 2026
   - Major: Computer Science and Technology, Shenyang, China
-  <!-- - Supervisor: Prof. Junchang Xin
-  - Research Topic: Blockchain Technology -->
+  <!-- - Supervisor: Prof. Junchang Xin -->
+  <!-- - Research Topic: Blockchain Technology -->
 - **Aalborg University, Denmark** - Guest Ph.D. 
   - Dec. 2023 – Dec. 2025
   - Major: Computer Science, Aalborg, Denmark
-  <!-- - Host Supervisor: Associate Professor Tianyi Li
-  - Research Topic: Trajectory Data Management with Blockchain-->
+  <!-- - Host Supervisor: Associate Professor Tianyi Li -->
+  <!-- - Research Topic: Trajectory Data Management with Blockchain-->
 - **Northeastern University, China** - Master 
   - Sep. 2018 – Jul. 2020
   - Major: Biomedical Engineering, Shenyang, China
-   <!-- - Supervisor: Prof. Junchang Xin
-  - Research Topic: Blockchain Technology -->
+  <!-- - Supervisor: Prof. Junchang Xin -->
+  <!-- - Research Topic: Blockchain Technology -->
 - **Northeastern University, China** - Bachelor
   - Sep. 2013 – Jul. 2017
   - Major: Computer Science and Technology, Shenyang, China
