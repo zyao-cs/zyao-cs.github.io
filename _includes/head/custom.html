@@ -25,4 +25,24 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+<!-- Fix top blank space: keep the fixed masthead's reserved height in sync
+     with its ACTUAL rendered height. The theme hardcodes $masthead-height:70px,
+     which no longer matches after the site font size was reduced, leaving a
+     large empty band under the nav. This makes the offset self-adjusting for
+     any width/zoom/future font change. -->
+<style>
+  #main { margin-top: 0.75em; } /* theme default is 2em; trimmed to tighten the gap under the nav */
+</style>
+<script>
+  (function () {
+    function syncMastheadOffset() {
+      var m = document.querySelector('.masthead');
+      if (m) document.body.style.paddingTop = m.offsetHeight + 'px';
+    }
+    window.addEventListener('DOMContentLoaded', syncMastheadOffset);
+    window.addEventListener('load', syncMastheadOffset);
+    window.addEventListener('resize', syncMastheadOffset);
+  })();
+</script>
+
 <!-- end custom head snippets -->
