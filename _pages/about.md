@@ -61,7 +61,7 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 .pub-list .pub-title { font-weight: 700; color: #1a1a1a; }
 .pub-list .pub-title::before { content: "\2022"; position: absolute; left: 0.2em; top: 0; color: #1a1a1a; font-weight: 700; }
 .pub-list .pub-venue { font-style: italic; color: #666; }
-.patents-top { margin-bottom: 0.05em; }
+.patents-top li:last-child { margin-bottom: 0.15em; }
 .more-patents { list-style: none; cursor: pointer; color: #52adc8; margin: 0 0 0.6em 40px; }
 .more-patents::-webkit-details-marker { display: none; }
 </style>
