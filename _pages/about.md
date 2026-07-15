@@ -174,13 +174,13 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 </div>
 
 <div class="pub">
-<div class="pub-title">On efficient top-k transaction path query processing in blockchain database.</div>
+<div class="pub-title">On Efficient Top-k Transaction Path Query Processing in Blockchain Database.</div>
 <div class="pub-authors">Kun Hao, Junchang Xin, Zhiqiong Wang, <b>Zhongming Yao</b>, Guoren Wang.</div>
 <div class="pub-venue">Data &amp; Knowledge Engineering (<b>DKE</b>), 2022.</div>
 </div>
 
 <div class="pub">
-<div class="pub-title">A join query optimization algorithm in multi-blockchain environment.</div>
+<div class="pub-title">A Join Query Optimization Algorithm in Multi-Blockchain Environment.</div>
 <div class="pub-authors">Sihan Dong, Junchang Xin, Kun Hao, <b>Zhongming Yao</b>, Jinyi Chen.</div>
 <div class="pub-venue">Journal of Zhejiang University (Engineering Science), 2021. (In Chinese)</div>
 </div>
