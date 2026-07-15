@@ -15,8 +15,11 @@ main:
     url: /#education
 
   - title: "Publications"
-    url: /#publications    
-    
+    url: /#publications
+
+  - title: "Patents"
+    url: /#patents
+
   - title: "Academic Services"
     url: /#academic
     
