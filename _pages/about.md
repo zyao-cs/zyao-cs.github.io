@@ -61,10 +61,12 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 .pub-list .pub-title { font-weight: 700; color: #1a1a1a; }
 .pub-list .pub-title::before { content: "\2022"; position: absolute; left: 0.2em; top: 0; color: #1a1a1a; font-weight: 700; }
 .pub-list .pub-venue { font-style: italic; color: #666; }
-.patents-top { margin-bottom: 0.15em; }
+.patents-top { margin-bottom: 0.1em; }
 .patents-top li:last-child { margin-bottom: 0; }
-.more-patents { list-style: none; cursor: pointer; color: #52adc8; margin: 0 0 0.6em 40px; }
+.more-patents { list-style: none; cursor: pointer; color: #52adc8; margin: 0 0 0.1em 40px; }
 .more-patents::-webkit-details-marker { display: none; }
+.patents-more { margin-top: 0; }
+.patents-more li:first-child { margin-top: 0; }
 </style>
 
 <div class="pub-list" markdown="0">
@@ -235,7 +237,7 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 
 <details>
 <summary class="more-patents">Show more</summary>
-<ul>
+<ul class="patents-more">
 <li>Data dynamic reliability verification method based on blockchain. CN201910908619.5, Chinese Patent, 2019. (2nd inventor)</li>
 <li>Connection query optimization method based on multi-blockchain environment. CN202110692472.8, Chinese Patent, 2021. (4th inventor)</li>
 <li>A spatio-temporal keyword query method in a hybrid-storage blockchain environment. CN202210650145.0, Chinese Patent, 2022. (4th inventor)</li>
