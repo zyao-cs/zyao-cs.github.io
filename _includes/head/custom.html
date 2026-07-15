@@ -38,6 +38,18 @@
      width, with a 1700px ceiling so line length stays readable. */
   #main,
   .masthead__inner-wrap { max-width: min(92%, 1700px); }
+
+  /* Fix content column dropping below the sidebar in the 925-1023px range.
+     In this band the theme floats the sidebar in-flow while the content
+     column needs more grid columns than fit beside it, so it wraps down and
+     leaves a large empty area at the top-right. Above 1024px the theme makes
+     the sidebar position:fixed and the problem disappears; below 925px the
+     layout stacks. Use flexbox to keep the two columns top-aligned in between. */
+  @media (min-width: 925px) and (max-width: 1023.98px) {
+    #main { display: flex; align-items: flex-start; gap: 1.5em; }
+    #main > .sidebar { float: none; position: static; width: 200px; flex: 0 0 auto; }
+    #main > .page { float: none; width: auto; margin: 0; flex: 1 1 auto; }
+  }
 </style>
 <script>
   (function () {
