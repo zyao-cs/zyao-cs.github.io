@@ -193,36 +193,6 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 
 
 
-<h2 id="patents">Patents &amp; Software Copyrights</h2>
-
-<ul>
-<li>A blockchain cross-chain data cross-storage method. CN201910908631.6, Chinese Patent, 2019. (2nd inventor)</li>
-<li>Data interaction method based on local-global blockchain cooperation. CN201910908719.8, Chinese Patent, 2019. (2nd inventor)</li>
-<li>Multi-copy reliability verification method based on blockchain encryption. CN201910908742.7, Chinese Patent, 2019. (2nd inventor)</li>
-<li>Data interaction method based on blockchain on-chain and off-chain collaboration. CN201910908610.4, Chinese Patent, 2019. (2nd inventor)</li>
-<li>Blockchain consensus method based on improved proof of work and proof of stake. CN201910908746.5, Chinese Patent, 2019. (2nd inventor)</li>
-</ul>
-
-<details>
-<summary style="cursor: pointer; color: #52adc8; margin: 0.2em 0 0.6em;">Show 14 more</summary>
-<ul>
-<li>Data dynamic reliability verification method based on blockchain. CN201910908619.5, Chinese Patent, 2019. (2nd inventor)</li>
-<li>Connection query optimization method based on multi-blockchain environment. CN202110692472.8, Chinese Patent, 2021. (4th inventor)</li>
-<li>A spatio-temporal keyword query method in a hybrid-storage blockchain environment. CN202210650145.0, Chinese Patent, 2022. (4th inventor)</li>
-<li>A smart contract vulnerability detection method based on fusion of local and sequential features. CN202210710381.7, Chinese Patent, 2022. (4th inventor)</li>
-<li>Construction method of multi-frequency brain network discriminative subnetwork pairs for auxiliary diagnosis of AD. CN202110684023.9, Chinese Patent, 2021. (6th inventor)</li>
-<li>Lung nodule computer-aided diagnosis device and method based on improved CNN. CN201910406366.1, Chinese Patent, 2019. (6th inventor)</li>
-<li>Magnetic resonance image denoising method based on sparse dictionary learning. CN201910768659.4, Chinese Patent, 2019. (7th inventor)</li>
-<li>A distributed index construction method based on improved iSAX encoding. CN202310424710.6, Chinese Patent, 2023. (4th inventor)</li>
-<li>A storage-scalable consortium blockchain sharding method. CN202310553853.7, Chinese Patent, 2023. (4th inventor)</li>
-<li>A topic auto-annotation method based on YAKE! keyword extraction. CN202310947698.7, Chinese Patent, 2024. (4th inventor)</li>
-<li>A verifiable provenance query method for multi-chain environments. CN202311485265.0, Chinese Patent, 2024. (4th inventor)</li>
-<li>A blockchain-based keyword semantic searchable encryption method in an inter-cloud environment. CN202410473425.8, Chinese Patent, 2024. (4th inventor)</li>
-<li>Inter-cloud Element Blockchain Homomorphic Encryption Storage and Query System V1.0. 2025SR0176512, Chinese Software Copyright, 2025. (5th author)</li>
-<li>Inter-cloud Element Blockchain Secure Acquisition and Fusion System V1.0. 2024SR0336274, Chinese Software Copyright, 2024. (7th author)</li>
-</ul>
-</details>
-
 <h2 id="academic">Academic Services</h2>
 
 **Session Chair**
@@ -242,6 +212,36 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 - The Journal of Supercomputing
 - IEEE Transactions on Industrial Informatics (TII)
 - World Wide Web: Internet and Web Information Systems (WWWJ)
+
+<h2 id="patents">Patents &amp; Software Copyrights</h2>
+
+<ul>
+<li>A blockchain cross-chain data cross-storage method. CN201910908631.6, Chinese Patent, 2019. (2nd inventor)</li>
+<li>Data interaction method based on local-global blockchain cooperation. CN201910908719.8, Chinese Patent, 2019. (2nd inventor)</li>
+<li>Multi-copy reliability verification method based on blockchain encryption. CN201910908742.7, Chinese Patent, 2019. (2nd inventor)</li>
+<li>Data interaction method based on blockchain on-chain and off-chain collaboration. CN201910908610.4, Chinese Patent, 2019. (2nd inventor)</li>
+<li>Blockchain consensus method based on improved proof of work and proof of stake. CN201910908746.5, Chinese Patent, 2019. (2nd inventor)</li>
+</ul>
+
+<details>
+<summary style="cursor: pointer; color: #52adc8; margin: 0.2em 0 0.6em;">Show more</summary>
+<ul>
+<li>Data dynamic reliability verification method based on blockchain. CN201910908619.5, Chinese Patent, 2019. (2nd inventor)</li>
+<li>Connection query optimization method based on multi-blockchain environment. CN202110692472.8, Chinese Patent, 2021. (4th inventor)</li>
+<li>A spatio-temporal keyword query method in a hybrid-storage blockchain environment. CN202210650145.0, Chinese Patent, 2022. (4th inventor)</li>
+<li>A smart contract vulnerability detection method based on fusion of local and sequential features. CN202210710381.7, Chinese Patent, 2022. (4th inventor)</li>
+<li>Construction method of multi-frequency brain network discriminative subnetwork pairs for auxiliary diagnosis of AD. CN202110684023.9, Chinese Patent, 2021. (6th inventor)</li>
+<li>Lung nodule computer-aided diagnosis device and method based on improved CNN. CN201910406366.1, Chinese Patent, 2019. (6th inventor)</li>
+<li>Magnetic resonance image denoising method based on sparse dictionary learning. CN201910768659.4, Chinese Patent, 2019. (7th inventor)</li>
+<li>A distributed index construction method based on improved iSAX encoding. CN202310424710.6, Chinese Patent, 2023. (4th inventor)</li>
+<li>A storage-scalable consortium blockchain sharding method. CN202310553853.7, Chinese Patent, 2023. (4th inventor)</li>
+<li>A topic auto-annotation method based on YAKE! keyword extraction. CN202310947698.7, Chinese Patent, 2024. (4th inventor)</li>
+<li>A verifiable provenance query method for multi-chain environments. CN202311485265.0, Chinese Patent, 2024. (4th inventor)</li>
+<li>A blockchain-based keyword semantic searchable encryption method in an inter-cloud environment. CN202410473425.8, Chinese Patent, 2024. (4th inventor)</li>
+<li>Inter-cloud Element Blockchain Homomorphic Encryption Storage and Query System V1.0. 2025SR0176512, Chinese Software Copyright, 2025. (5th author)</li>
+<li>Inter-cloud Element Blockchain Secure Acquisition and Fusion System V1.0. 2024SR0336274, Chinese Software Copyright, 2024. (7th author)</li>
+</ul>
+</details>
 
  <!--<h2 id="cv">CV</h2>-->
 
