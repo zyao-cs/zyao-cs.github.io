@@ -61,9 +61,9 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 .pub-list .pub-title { font-weight: 700; color: #1a1a1a; }
 .pub-list .pub-title::before { content: "\2022"; position: absolute; left: 0.2em; top: 0; color: #1a1a1a; font-weight: 700; }
 .pub-list .pub-venue { font-style: italic; color: #666; }
-.more-patents { list-style: none; cursor: pointer; color: #52adc8; margin: 0.4em 0 0.6em 40px; position: relative; }
+.patents-top { margin-bottom: 0.25em; }
+.more-patents { list-style: none; cursor: pointer; color: #52adc8; margin: 0 0 0.6em 40px; }
 .more-patents::-webkit-details-marker { display: none; }
-.more-patents::before { content: "\2022"; position: absolute; left: -1em; color: #333; }
 </style>
 
 <div class="pub-list" markdown="0">
@@ -224,7 +224,7 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 
 <h2 id="patents">Patents &amp; Software Copyrights</h2>
 
-<ul>
+<ul class="patents-top">
 <li>A blockchain cross-chain data cross-storage method. CN201910908631.6, Chinese Patent, 2019. (2nd inventor)</li>
 <li>Data interaction method based on local-global blockchain cooperation. CN201910908719.8, Chinese Patent, 2019. (2nd inventor)</li>
 <li>Multi-copy reliability verification method based on blockchain encryption. CN201910908742.7, Chinese Patent, 2019. (2nd inventor)</li>
