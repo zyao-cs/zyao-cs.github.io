@@ -17,11 +17,11 @@ main:
   - title: "Publications"
     url: /#publications
 
-  - title: "Patents"
-    url: /#patents
-
   - title: "Academic Services"
     url: /#academic
+
+  - title: "Patents"
+    url: /#patents
     
   # - title: "CV"
    #  url: /#cv
