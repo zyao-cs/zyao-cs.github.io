@@ -55,26 +55,136 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 <h2 id="publications">Publications</h2>
 † denotes the corresponding author
 
-- Qiuyang Li, Qian Ma, **Zhongming Yao**, Shikai Guo, Yu Gu, Ge Yu, Tianyi Li. ReCATS: Replay-Free Continual Anomaly Detection for Non-Stationary Multivariate Time Series. _ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)_, 2026.
-- Qian Ma, Linfei Dai, **Zhongming Yao**, Yu Gu, Tianyi Li, Christian S. Jensen, Ge Yu. Multimodal Knowledge Graph Completion via Relation-Aware Negative Sampling with Diffusion-based Interpolation. _International Conference on Very Large Data Bases (PVLDB)_, 2026.
-- Fengyu Li, Junhao Zhu, Kaishi Song, Lu Chen, **Zhongming Yao**, Tianyi Li, Christian S. Jensen. Replacing Multi-Step Assembly of Data Preparation Pipelines with One-Step LLM Pipeline Generation for Table QA. _International Conference on Very Large Data Bases (PVLDB)_, 2026.
-- Wentao Xu, **Zhongming Yao<sup>†</sup>**, Weihao Li, Zhenghang Song, Yumeng Song, Tianyi Li, Yushuai Li. TCRL: Temporal-Coupled Adversarial Training for Robust Constrained Reinforcement Learning in Worst-Case Scenarios. _International Conference on Autonomous Agents and Multiagent Systems (AAMAS)_, 2026.
-- Mo Li, Zhaosong Zhao, Linlin Ding, Renata Borovica-Gajic, **Zhongming Yao**, Jianxin Li. One-for-All Community Search on Unseen Graphs. _International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)_, 2026.
-- Jiachen Xu, Torben Bach Pedersen, **Zhongming Yao**, Tianyi Li, Yushuai Li. FOgym: A Bottom-Up Home Energy Management Framework Based on FlexOffers and Multi-Agent Reinforcement Learning. _ACM International Conference on Future and Sustainable Energy Systems (e-Energy)_, 2026.
-- Yusen Mao, **Zhongming Yao**, Junchang Xin, Chenchen Yan, Yumeng Song, Zhongzhong Jiang, and Zhiqiong Wang. EVT² : Efficient and Verifiable Trajectory Top-k Queries in Hybrid-Storage Blockchains. _APWeb-WAIM joint International Conference on Web and Big Data (APWeb-WAIM)_, 2026.
-- Chenchen Yan, **Zhongming Yao**, Zhiqiong Wang, Kun Hao, Yusen Mao, Yushuai Li, Tianyi Li, and Junchang Xin. FlexBC: A Flexible Blockchain Storage Mechanism Based on Data Hotness Features through Off-Chain Offloading. _International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems (BlockDys)_, 2026.
-- Qi Shen, Junchang Xin, Bing Tian Dai, **Zhongming Yao**, Xinyao Liu, Zhihong Huang, Zhiqiong Wang. Towards Heterogeneous Multimodal Sentiment Analysis with ASR Errors via Multi-Granularity Contrastive Coordination. _IEEE Transactions on Multimedia (TMM)_, 2026.
-- Jiaqi Tian, Bonan Huang, Tianyi Li, David Wenzhong Gao, **Zhongming Yao**, Yumeng Song, Yushuai Li. Digital Twin for Multitimescale Economic Dispatch in Cyber-Physical Energy Systems. _IEEE Transactions on Industrial Informatics (TII)_, 2026.
-- Xiaoyu Zhang, Qiuye Sun, Tianyi Li, Yumeng Song, **Zhongming Yao**, Yushuai Li. A Survey on Large Language Models Enhanced Reinforcement Learning for Smart Grid. _Journal of Modern Power Systems and Clean Energy (MPCE)_, 2026.
-- **Zhongming Yao**, Tianyi Li, Junchang Xin, Yushuai Li, Chenxu Wang, Zhiqiong Wang, Divesh Srivastava, Christian S Jensen. VGQ: Enabling Verifiable Graph Queries on Blockchain Systems. _The IEEE International Conference on Data Engineering (ICDE)_, 2025.
-- Ziming Liu, Bonan Huang, Cheng Zhang, **Zhongming Yao**, Tianyi Li, Qiuye Sun, Yushuai Li. Clustered Federated Learning for Energy-Harvesting Smart Meters in P2P Energy Trading. _IEEE Transactions on Green Communications and Networking (TGCN)_, 2025.
-- Tianyi Li, Yushuai Li, Yumeng Song, **Zhongming Yao**, Wei Gao, David Wenzhong Gao. Networked Digital Twins for Autonomous Vehicles: A New Perspective. _IEEE Transactions on Intelligent Vehicles (TIV)_, 2024.
-- **Zhongming Yao**, Zhiqiong Wang, Kun Hao, Liang Wen. Efficient Blockchain Data Provenance Based on the W3C PROV Model. _The International Conference on Advanced Data Mining and Applications (ADMA)_, 2023.
-- Liang Wen, Zhiqiong Wang, Tingyu Cui, Caiyun Shi, Baoting Li, **Zhongming Yao**. A Fine-Grained Verification Method for Blockchain Data Based on Merkle Path Sharding. _The International Conference on Advanced Data Mining and Applications (ADMA)_, 2023.
-- **Zhongming Yao**, Junchang Xin, Kun Hao, Zhiqiong Wang, Wancheng Zhu. Learned Index Based Semantic Keyword Query on Blockchain, _Mathematic_, 2023.
-- Kun Hao, Junchang Xin, Zhiqiong Wang, **Zhongming Yao**, Guoren Wang. Efficient and Secure Data Sharing Scheme on Interoperable Blockchain Database. _IEEE Transactions on Big Data (TBD)_, 2023.
-- Kun Hao, Junchang Xin, Zhiqiong Wang, **Zhongming Yao**, Guoren Wang. On efficient top-k transaction path query processing in blockchain database. _Data & Knowledge Engineering (DKE)_, 2022.
-- Sihan Dong, Junchang Xin, Kun Hao, **Zhongming Yao**, Jinyi Chen. A join query optimization algorithm in multi-blockchain environment. _Journal of Zhejiang University (Engineering Science)_, 2021. (In Chinese)
+<style>
+.pub-list { margin-top: 0.6em; }
+.pub-list .pub { margin: 0 0 1.1em; line-height: 1.5; }
+.pub-list .pub-title { font-weight: 700; color: #1a1a1a; }
+.pub-list .pub-venue { font-style: italic; color: #666; }
+</style>
+
+<div class="pub-list" markdown="0">
+
+<div class="pub">
+<div class="pub-title">ReCATS: Replay-Free Continual Anomaly Detection for Non-Stationary Multivariate Time Series.</div>
+<div class="pub-authors">Qiuyang Li, Qian Ma, <b>Zhongming Yao</b>, Shikai Guo, Yu Gu, Ge Yu, Tianyi Li.</div>
+<div class="pub-venue">ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (<b>KDD</b>), 2026.</div>
+</div>
+
+<div class="pub">
+<div class="pub-title">Multimodal Knowledge Graph Completion via Relation-Aware Negative Sampling with Diffusion-based Interpolation.</div>
+<div class="pub-authors">Qian Ma, Linfei Dai, <b>Zhongming Yao</b>, Yu Gu, Tianyi Li, Christian S. Jensen, Ge Yu.</div>
+<div class="pub-venue">International Conference on Very Large Data Bases (<b>PVLDB</b>), 2026.</div>
+</div>
+
+<div class="pub">
+<div class="pub-title">Replacing Multi-Step Assembly of Data Preparation Pipelines with One-Step LLM Pipeline Generation for Table QA.</div>
+<div class="pub-authors">Fengyu Li, Junhao Zhu, Kaishi Song, Lu Chen, <b>Zhongming Yao</b>, Tianyi Li, Christian S. Jensen.</div>
+<div class="pub-venue">International Conference on Very Large Data Bases (<b>PVLDB</b>), 2026.</div>
+</div>
+
+<div class="pub">
+<div class="pub-title">TCRL: Temporal-Coupled Adversarial Training for Robust Constrained Reinforcement Learning in Worst-Case Scenarios.</div>
+<div class="pub-authors">Wentao Xu, <b>Zhongming Yao<sup>†</sup></b>, Weihao Li, Zhenghang Song, Yumeng Song, Tianyi Li, Yushuai Li.</div>
+<div class="pub-venue">International Conference on Autonomous Agents and Multiagent Systems (<b>AAMAS</b>), 2026.</div>
+</div>
+
+<div class="pub">
+<div class="pub-title">One-for-All Community Search on Unseen Graphs.</div>
+<div class="pub-authors">Mo Li, Zhaosong Zhao, Linlin Ding, Renata Borovica-Gajic, <b>Zhongming Yao</b>, Jianxin Li.</div>
+<div class="pub-venue">International ACM SIGIR Conference on Research and Development in Information Retrieval (<b>SIGIR</b>), 2026.</div>
+</div>
+
+<div class="pub">
+<div class="pub-title">FOgym: A Bottom-Up Home Energy Management Framework Based on FlexOffers and Multi-Agent Reinforcement Learning.</div>
+<div class="pub-authors">Jiachen Xu, Torben Bach Pedersen, <b>Zhongming Yao</b>, Tianyi Li, Yushuai Li.</div>
+<div class="pub-venue">ACM International Conference on Future and Sustainable Energy Systems (<b>e-Energy</b>), 2026.</div>
+</div>
+
+<div class="pub">
+<div class="pub-title">EVT² : Efficient and Verifiable Trajectory Top-k Queries in Hybrid-Storage Blockchains.</div>
+<div class="pub-authors">Yusen Mao, <b>Zhongming Yao</b>, Junchang Xin, Chenchen Yan, Yumeng Song, Zhongzhong Jiang, and Zhiqiong Wang.</div>
+<div class="pub-venue">APWeb-WAIM joint International Conference on Web and Big Data (<b>APWeb-WAIM</b>), 2026.</div>
+</div>
+
+<div class="pub">
+<div class="pub-title">FlexBC: A Flexible Blockchain Storage Mechanism Based on Data Hotness Features through Off-Chain Offloading.</div>
+<div class="pub-authors">Chenchen Yan, <b>Zhongming Yao</b>, Zhiqiong Wang, Kun Hao, Yusen Mao, Yushuai Li, Tianyi Li, and Junchang Xin.</div>
+<div class="pub-venue">International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems (<b>BlockDys</b>), 2026.</div>
+</div>
+
+<div class="pub">
+<div class="pub-title">Towards Heterogeneous Multimodal Sentiment Analysis with ASR Errors via Multi-Granularity Contrastive Coordination.</div>
+<div class="pub-authors">Qi Shen, Junchang Xin, Bing Tian Dai, <b>Zhongming Yao</b>, Xinyao Liu, Zhihong Huang, Zhiqiong Wang.</div>
+<div class="pub-venue">IEEE Transactions on Multimedia (<b>TMM</b>), 2026.</div>
+</div>
+
+<div class="pub">
+<div class="pub-title">Digital Twin for Multitimescale Economic Dispatch in Cyber-Physical Energy Systems.</div>
+<div class="pub-authors">Jiaqi Tian, Bonan Huang, Tianyi Li, David Wenzhong Gao, <b>Zhongming Yao</b>, Yumeng Song, Yushuai Li.</div>
+<div class="pub-venue">IEEE Transactions on Industrial Informatics (<b>TII</b>), 2026.</div>
+</div>
+
+<div class="pub">
+<div class="pub-title">A Survey on Large Language Models Enhanced Reinforcement Learning for Smart Grid.</div>
+<div class="pub-authors">Xiaoyu Zhang, Qiuye Sun, Tianyi Li, Yumeng Song, <b>Zhongming Yao</b>, Yushuai Li.</div>
+<div class="pub-venue">Journal of Modern Power Systems and Clean Energy (<b>MPCE</b>), 2026.</div>
+</div>
+
+<div class="pub">
+<div class="pub-title">VGQ: Enabling Verifiable Graph Queries on Blockchain Systems.</div>
+<div class="pub-authors"><b>Zhongming Yao</b>, Tianyi Li, Junchang Xin, Yushuai Li, Chenxu Wang, Zhiqiong Wang, Divesh Srivastava, Christian S Jensen.</div>
+<div class="pub-venue">The IEEE International Conference on Data Engineering (<b>ICDE</b>), 2025.</div>
+</div>
+
+<div class="pub">
+<div class="pub-title">Clustered Federated Learning for Energy-Harvesting Smart Meters in P2P Energy Trading.</div>
+<div class="pub-authors">Ziming Liu, Bonan Huang, Cheng Zhang, <b>Zhongming Yao</b>, Tianyi Li, Qiuye Sun, Yushuai Li.</div>
+<div class="pub-venue">IEEE Transactions on Green Communications and Networking (<b>TGCN</b>), 2025.</div>
+</div>
+
+<div class="pub">
+<div class="pub-title">Networked Digital Twins for Autonomous Vehicles: A New Perspective.</div>
+<div class="pub-authors">Tianyi Li, Yushuai Li, Yumeng Song, <b>Zhongming Yao</b>, Wei Gao, David Wenzhong Gao.</div>
+<div class="pub-venue">IEEE Transactions on Intelligent Vehicles (<b>TIV</b>), 2024.</div>
+</div>
+
+<div class="pub">
+<div class="pub-title">Efficient Blockchain Data Provenance Based on the W3C PROV Model.</div>
+<div class="pub-authors"><b>Zhongming Yao</b>, Zhiqiong Wang, Kun Hao, Liang Wen.</div>
+<div class="pub-venue">The International Conference on Advanced Data Mining and Applications (<b>ADMA</b>), 2023.</div>
+</div>
+
+<div class="pub">
+<div class="pub-title">A Fine-Grained Verification Method for Blockchain Data Based on Merkle Path Sharding.</div>
+<div class="pub-authors">Liang Wen, Zhiqiong Wang, Tingyu Cui, Caiyun Shi, Baoting Li, <b>Zhongming Yao</b>.</div>
+<div class="pub-venue">The International Conference on Advanced Data Mining and Applications (<b>ADMA</b>), 2023.</div>
+</div>
+
+<div class="pub">
+<div class="pub-title">Learned Index Based Semantic Keyword Query on Blockchain.</div>
+<div class="pub-authors"><b>Zhongming Yao</b>, Junchang Xin, Kun Hao, Zhiqiong Wang, Wancheng Zhu.</div>
+<div class="pub-venue">Mathematics, 2023.</div>
+</div>
+
+<div class="pub">
+<div class="pub-title">Efficient and Secure Data Sharing Scheme on Interoperable Blockchain Database.</div>
+<div class="pub-authors">Kun Hao, Junchang Xin, Zhiqiong Wang, <b>Zhongming Yao</b>, Guoren Wang.</div>
+<div class="pub-venue">IEEE Transactions on Big Data (<b>TBD</b>), 2023.</div>
+</div>
+
+<div class="pub">
+<div class="pub-title">On efficient top-k transaction path query processing in blockchain database.</div>
+<div class="pub-authors">Kun Hao, Junchang Xin, Zhiqiong Wang, <b>Zhongming Yao</b>, Guoren Wang.</div>
+<div class="pub-venue">Data &amp; Knowledge Engineering (<b>DKE</b>), 2022.</div>
+</div>
+
+<div class="pub">
+<div class="pub-title">A join query optimization algorithm in multi-blockchain environment.</div>
+<div class="pub-authors">Sihan Dong, Junchang Xin, Kun Hao, <b>Zhongming Yao</b>, Jinyi Chen.</div>
+<div class="pub-venue">Journal of Zhejiang University (Engineering Science), 2021. (In Chinese)</div>
+</div>
+
+</div>
 
 
 
