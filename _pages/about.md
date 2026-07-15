@@ -57,8 +57,9 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 
 <style>
 .pub-list { margin-top: 0.6em; }
-.pub-list .pub { margin: 0 0 1.1em; line-height: 1.5; }
+.pub-list .pub { position: relative; margin: 0 0 1.1em; padding-left: 1.3em; line-height: 1.5; }
 .pub-list .pub-title { font-weight: 700; color: #1a1a1a; }
+.pub-list .pub-title::before { content: "\2022"; position: absolute; left: 0.2em; top: 0; color: #1a1a1a; font-weight: 700; }
 .pub-list .pub-venue { font-style: italic; color: #666; }
 </style>
 
@@ -194,18 +195,23 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 
 <h2 id="academic">Academic Services</h2>
 
-- Program Committee \[IEEE International Conference on Data Engineering (ICDE)\] 2027
-- Program Committee \[AAAI Conference on Artificial Intelligence (AAAI)\] 2026, 2027
-- Program Committee \[International ACM Conference on Knowledge and Information Management (CIKM)\] 2026
-- Program Committee \[IEEE International Conference on Data Mining (ICDM)\] 2026
-- Program Committee \[APWeb-WAIM joint International Conference on Web and Big Data (APWeb-WAIM)\] 2026
-- Reviewer \[IEEE International Conference on Data Mining (ICDM)\] 2025
-- Reviewer \[APWeb-WAIM joint International Conference on Web and Big Data (APWeb-WAIM)\] 2025
-- Reviewer \[Distributed and Parallel Databases (DPD)\]
-- Reviewer \[IEEE Network\]
-- Reviewer \[The Journal of Supercomputing\]
-- Reviewer \[IEEE Transactions on Industrial Informatics (TII)\]
-- Reviewer \[World Wide Web: Internet and Web Information Systems (WWWJ)\]
+**Session Chair**
+
+- Organizer \| IEEE International Conference on Intelligence and Security Informatics (ISI) Special Session<br>Topic: Trustworthy Multimodal, Generative, and Reinforcement Learning for Intelligent Systems, 2026
+
+**PC Member and Reviewer**
+
+- 2027: ICDE, AAAI
+- 2026: AAAI, CIKM, ICDM, APWeb-WAIM
+- 2025: ICDM, APWeb-WAIM
+
+**Journal Reviewer**
+
+- Distributed and Parallel Databases (DPD)
+- IEEE Network
+- The Journal of Supercomputing
+- IEEE Transactions on Industrial Informatics (TII)
+- World Wide Web: Internet and Web Information Systems (WWWJ)
 
  <!--<h2 id="cv">CV</h2>-->
 
