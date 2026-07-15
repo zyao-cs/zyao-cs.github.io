@@ -32,6 +32,12 @@
      any width/zoom/future font change. -->
 <style>
   #main { margin-top: 0.75em; } /* theme default is 2em; trimmed to tighten the gap under the nav */
+
+  /* Widen content: the theme caps #main and the nav at $x-large (1280px), which
+     leaves large empty side margins on wide screens. Use most of the viewport
+     width, with a 1700px ceiling so line length stays readable. */
+  #main,
+  .masthead__inner-wrap { max-width: min(92%, 1700px); }
 </style>
 <script>
   (function () {
