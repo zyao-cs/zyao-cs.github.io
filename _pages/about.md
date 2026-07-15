@@ -56,11 +56,14 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 † denotes the corresponding author
 
 <style>
-.pub-list { margin-top: 0.6em; }
+.pub-list { margin-top: 0.6em; margin-left: 1.2em; }
 .pub-list .pub { position: relative; margin: 0 0 1.1em; padding-left: 1.3em; line-height: 1.5; }
 .pub-list .pub-title { font-weight: 700; color: #1a1a1a; }
 .pub-list .pub-title::before { content: "\2022"; position: absolute; left: 0.2em; top: 0; color: #1a1a1a; font-weight: 700; }
 .pub-list .pub-venue { font-style: italic; color: #666; }
+.more-patents { list-style: none; cursor: pointer; color: #52adc8; margin: 0.4em 0 0.6em 40px; position: relative; }
+.more-patents::-webkit-details-marker { display: none; }
+.more-patents::before { content: "\2022"; position: absolute; left: -1em; color: #333; }
 </style>
 
 <div class="pub-list" markdown="0">
@@ -129,6 +132,12 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 <div class="pub-title">A Survey on Large Language Models Enhanced Reinforcement Learning for Smart Grid.</div>
 <div class="pub-authors">Xiaoyu Zhang, Qiuye Sun, Tianyi Li, Yumeng Song, <b>Zhongming Yao</b>, Yushuai Li.</div>
 <div class="pub-venue">Journal of Modern Power Systems and Clean Energy (<b>MPCE</b>), 2026.</div>
+</div>
+
+<div class="pub">
+<div class="pub-title">MiRoCPO: Mutual Information and RoCoF-Aware Constrained Policy Optimization for Robust Load Frequency Control Against Temporal-Coupled Attacks.</div>
+<div class="pub-authors">Wentao Xu, Yushuai Li, <b>Zhongming Yao</b>, Tianyi Li, Zhenghang Song, and Yang Zhang.</div>
+<div class="pub-venue">Cyber-Physical Energy Systems (<b>CPES</b>), 2026.</div>
 </div>
 
 <div class="pub">
@@ -224,7 +233,7 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 </ul>
 
 <details>
-<summary style="cursor: pointer; color: #52adc8; margin: 0.2em 0 0.6em;">Show more</summary>
+<summary class="more-patents">Show more</summary>
 <ul>
 <li>Data dynamic reliability verification method based on blockchain. CN201910908619.5, Chinese Patent, 2019. (2nd inventor)</li>
 <li>Connection query optimization method based on multi-blockchain environment. CN202110692472.8, Chinese Patent, 2021. (4th inventor)</li>
