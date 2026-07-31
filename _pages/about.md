@@ -120,6 +120,12 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 </div>
 
 <div class="pub">
+<div class="pub-title">StyleTimeQAM: Modeling Learning Style and Temporal Dynamics for Question-Answer Matching in Online Teaching Groups.</div>
+<div class="pub-authors">Xinyang Li, Zhihong Cui, <b>Zhongming Yao</b>, Zhangkai Wu, Hengyu Liu, Kristian Torp, Minghe Yu, Tiancheng Zhang, Ge Yu.</div>
+<div class="pub-venue">International Conference on Behavioural and Social Computing (<b>BESC</b>), 2026.</div>
+</div>
+
+<div class="pub">
 <div class="pub-title">Towards Heterogeneous Multimodal Sentiment Analysis with ASR Errors via Multi-Granularity Contrastive Coordination.</div>
 <div class="pub-authors">Qi Shen, Junchang Xin, Bing Tian Dai, <b>Zhongming Yao</b>, Xinyao Liu, Zhihong Huang, Zhiqiong Wang.</div>
 <div class="pub-venue">IEEE Transactions on Multimedia (<b>TMM</b>), 2026.</div>
