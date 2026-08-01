@@ -145,7 +145,7 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 
 <div class="pub">
 <div class="pub-title">MiRoCPO: Mutual Information and RoCoF-Aware Constrained Policy Optimization for Robust Load Frequency Control Against Temporal-Coupled Attacks.</div>
-<div class="pub-authors">Wentao Xu, Yushuai Li, <b>Zhongming Yao</b>, Tianyi Li, Zhenghang Song, and Yang Zhang.</div>
+<div class="pub-authors">Wentao Xu, Yushuai Li, <b>Zhongming Yao</b>, Tianyi Li, Zhenghang Song, and Yan Zhang.</div>
 <div class="pub-venue">Cyber-Physical Energy Systems (<b>CPES</b>), 2026.</div>
 </div>
 
