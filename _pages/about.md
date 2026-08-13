@@ -219,7 +219,7 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 
 **PC Member and Reviewer**
 
-- 2027: ICDE, AAAI
+- 2027: ICDE, AAAI, DASFAA
 - 2026: AAAI, CIKM, ICDM, APWeb-WAIM
 - 2025: ICDM, APWeb-WAIM
 
