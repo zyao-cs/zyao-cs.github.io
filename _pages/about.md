@@ -116,7 +116,7 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 <div class="pub">
 <div class="pub-title">FlexBC: A Flexible Blockchain Storage Mechanism Based on Data Hotness Features through Off-Chain Offloading.</div>
 <div class="pub-authors">Chenchen Yan, <b>Zhongming Yao</b>, Zhiqiong Wang, Kun Hao, Yusen Mao, Yushuai Li, Tianyi Li, and Junchang Xin.</div>
-<div class="pub-venue">International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems (<b>BlockDys</b>), 2026.</div>
+<div class="pub-venue">International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems (<b>BlockSys</b>), 2026.</div>
 </div>
 
 <div class="pub">
