@@ -168,8 +168,8 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 </div>
 
 <div class="pub">
-<div class="pub-title">Efficient Blockchain Data Provenance Based on the W3C PROV Model.</div>
-<div class="pub-authors"><b>Zhongming Yao</b>, Zhiqiong Wang, Kun Hao, Liang Wen.</div>
+<div class="pub-title">Efficient Blockchain Data Trusty Provenance Based on the W3C PROV Model.</div>
+<div class="pub-authors"><b>Zhongming Yao</b>, Zhiqiong Wang, Liang Wen, Kun Hao, Junming Xu.</div>
 <div class="pub-venue">The International Conference on Advanced Data Mining and Applications (<b>ADMA</b>), 2023.</div>
 </div>
 
