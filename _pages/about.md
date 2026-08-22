@@ -200,7 +200,7 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 <div class="pub">
 <div class="pub-title">A Join Query Optimization Algorithm in Multi-Blockchain Environment.</div>
 <div class="pub-authors">Sihan Dong, Junchang Xin, Kun Hao, <b>Zhongming Yao</b>, Jinyi Chen.</div>
-<div class="pub-venue">Journal of Zhejiang University (Engineering Science), 2021. (In Chinese)</div>
+<div class="pub-venue">Journal of Zhejiang University (Engineering Science), 2022. (In Chinese)</div>
 </div>
 
 </div>
