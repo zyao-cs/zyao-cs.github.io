@@ -111,13 +111,13 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 <div class="pub">
 <div class="pub-title">VeriTS: Verifiable Model-Enhanced Time-Series Queries on Blockchain Systems.</div>
 <div class="pub-authors"><b>Zhongming Yao<sup>†</sup></b>, Jun Pang, Chenxu Wang, Qian Ma, Peiyuan Guan, Shiliang Zhang.</div>
-<div class="pub-venue"><span class="np">[CORE A*]</span> IEEE International Conference on Data Mining Workshops (<b>ICDMW</b>), 2026.</div>
+<div class="pub-venue"><span class="np">[CORE A*]</span> IEEE International Conference on Data Mining (<b>ICDM</b>) Workshops, 2026.</div>
 </div>
 
 <div class="pub">
 <div class="pub-title">Time Series Agentic AI for Energy Systems.</div>
 <div class="pub-authors">Xiaoyu Zhang, Jiachen Xu, <b>Zhongming Yao</b>, Tianyi Li, Yushuai Li.</div>
-<div class="pub-venue"><span class="np">[CORE A*]</span> IEEE International Conference on Data Mining Workshops (<b>ICDMW</b>), 2026.</div>
+<div class="pub-venue"><span class="np">[CORE A*]</span> IEEE International Conference on Data Mining (<b>ICDM</b>) Workshops, 2026.</div>
 </div>
 
 <div class="pub">
