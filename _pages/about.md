@@ -53,7 +53,7 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 
 
 <h2 id="publications">Publications</h2>
-† denotes the corresponding author
+† denotes the corresponding author, ‡ denotes a workshop-track paper
 
 <style>
 .pub-list { margin-top: 0.6em; margin-left: 1.2em; }
@@ -108,15 +108,27 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 </div>
 
 <div class="pub">
+<div class="pub-title">(<b>CORE A*</b>)<sup>‡</sup> VeriTS: Verifiable Model-Enhanced Time-Series Queries on Blockchain Systems.</div>
+<div class="pub-authors"><b>Zhongming Yao<sup>†</sup></b>, Jun Pang, Chenxu Wang, Qian Ma, Peiyuan Guan, Shiliang Zhang.</div>
+<div class="pub-venue">IEEE International Conference on Data Mining Workshops (<b>ICDMW</b>), 2026.</div>
+</div>
+
+<div class="pub">
+<div class="pub-title">(<b>CORE A*</b>)<sup>‡</sup> Time Series Agentic AI for Energy Systems.</div>
+<div class="pub-authors">Xiaoyu Zhang, Jiachen Xu, <b>Zhongming Yao</b>, Tianyi Li, Yushuai Li.</div>
+<div class="pub-venue">IEEE International Conference on Data Mining Workshops (<b>ICDMW</b>), 2026.</div>
+</div>
+
+<div class="pub">
 <div class="pub-title">EVT² : Efficient and Verifiable Trajectory Top-k Queries in Hybrid-Storage Blockchains.</div>
 <div class="pub-authors">Yusen Mao, <b>Zhongming Yao</b>, Junchang Xin, Chenchen Yan, Yumeng Song, Zhongzhong Jiang, and Zhiqiong Wang.</div>
 <div class="pub-venue">APWeb-WAIM joint International Conference on Web and Big Data (<b>APWeb-WAIM</b>), 2026.</div>
 </div>
 
 <div class="pub">
-<div class="pub-title">HotBC: A Data Hotness–Aware Blockchain Storage Mechanism through Off-Chain Offloading.</div>
+<div class="pub-title">FlexBC: A Flexible Blockchain Storage Mechanism Based on Data Hotness Features through Off-Chain Offloading.</div>
 <div class="pub-authors">Chenchen Yan, <b>Zhongming Yao</b>, Zhiqiong Wang, Kun Hao, Yusen Mao, Yushuai Li, Tianyi Li, and Junchang Xin.</div>
-<div class="pub-venue">International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems (<b>BlockSys</b>), 2026.</div>
+<div class="pub-venue">International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems (<b>BlockDys</b>), 2026.</div>
 </div>
 
 <div class="pub">
@@ -145,7 +157,7 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 
 <div class="pub">
 <div class="pub-title">MiRoCPO: Mutual Information and RoCoF-Aware Constrained Policy Optimization for Robust Load Frequency Control Against Temporal-Coupled Attacks.</div>
-<div class="pub-authors">Wentao Xu, Yushuai Li, <b>Zhongming Yao</b>, Tianyi Li, Zhenghang Song, and Yan Zhang.</div>
+<div class="pub-authors">Wentao Xu, Yushuai Li, <b>Zhongming Yao</b>, Tianyi Li, Zhenghang Song, and Yang Zhang.</div>
 <div class="pub-venue">Cyber-Physical Energy Systems (<b>CPES</b>), 2026.</div>
 </div>
 
@@ -168,8 +180,8 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 </div>
 
 <div class="pub">
-<div class="pub-title">Efficient Blockchain Data Trusty Provenance Based on the W3C PROV Model.</div>
-<div class="pub-authors"><b>Zhongming Yao</b>, Zhiqiong Wang, Liang Wen, Kun Hao, Junming Xu.</div>
+<div class="pub-title">Efficient Blockchain Data Provenance Based on the W3C PROV Model.</div>
+<div class="pub-authors"><b>Zhongming Yao</b>, Zhiqiong Wang, Kun Hao, Liang Wen.</div>
 <div class="pub-venue">The International Conference on Advanced Data Mining and Applications (<b>ADMA</b>), 2023.</div>
 </div>
 
@@ -200,7 +212,7 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 <div class="pub">
 <div class="pub-title">A Join Query Optimization Algorithm in Multi-Blockchain Environment.</div>
 <div class="pub-authors">Sihan Dong, Junchang Xin, Kun Hao, <b>Zhongming Yao</b>, Jinyi Chen.</div>
-<div class="pub-venue">Journal of Zhejiang University (Engineering Science), 2022. (In Chinese)</div>
+<div class="pub-venue">Journal of Zhejiang University (Engineering Science), 2021. (In Chinese)</div>
 </div>
 
 </div>
@@ -219,7 +231,7 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 
 **PC Member and Reviewer**
 
-- 2027: ICDE, AAAI, DASFAA, WSDM
+- 2027: ICDE, AAAI
 - 2026: AAAI, CIKM, ICDM, APWeb-WAIM
 - 2025: ICDM, APWeb-WAIM
 
