@@ -75,145 +75,145 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 <div class="pub">
 <div class="pub-title">ReCATS: Replay-Free Continual Anomaly Detection for Non-Stationary Multivariate Time Series.</div>
 <div class="pub-authors">Qiuyang Li, Qian Ma, <b>Zhongming Yao</b>, Shikai Guo, Yu Gu, Ge Yu, Tianyi Li.</div>
-<div class="pub-venue"><span class="np">[</span>CORE A*<span class="np">]</span> ACM SIGKDD International Conference on Knowledge Discovery and Data Mining <span class="np">(</span><b>KDD</b><span class="np">)</span>, 2026.</div>
+<div class="pub-venue"><span class="np">[CORE A*]</span> ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (<b>KDD</b>), 2026.</div>
 </div>
 
 <div class="pub">
 <div class="pub-title">Multimodal Knowledge Graph Completion via Relation-Aware Negative Sampling with Diffusion-based Interpolation.</div>
 <div class="pub-authors">Qian Ma, Linfei Dai, <b>Zhongming Yao</b>, Yu Gu, Tianyi Li, Christian S. Jensen, Ge Yu.</div>
-<div class="pub-venue"><span class="np">[</span>CORE A*<span class="np">]</span> International Conference on Very Large Data Bases <span class="np">(</span><b>PVLDB</b><span class="np">)</span>, 2026.</div>
+<div class="pub-venue"><span class="np">[CORE A*]</span> International Conference on Very Large Data Bases (<b>PVLDB</b>), 2026.</div>
 </div>
 
 <div class="pub">
 <div class="pub-title">Replacing Multi-Step Assembly of Data Preparation Pipelines with One-Step LLM Pipeline Generation for Table QA.</div>
 <div class="pub-authors">Fengyu Li, Junhao Zhu, Kaishi Song, Lu Chen, <b>Zhongming Yao</b>, Tianyi Li, Christian S. Jensen.</div>
-<div class="pub-venue"><span class="np">[</span>CORE A*<span class="np">]</span> International Conference on Very Large Data Bases <span class="np">(</span><b>PVLDB</b><span class="np">)</span>, 2026.</div>
+<div class="pub-venue"><span class="np">[CORE A*]</span> International Conference on Very Large Data Bases (<b>PVLDB</b>), 2026.</div>
 </div>
 
 <div class="pub">
 <div class="pub-title">TCRL: Temporal-Coupled Adversarial Training for Robust Constrained Reinforcement Learning in Worst-Case Scenarios.</div>
 <div class="pub-authors">Wentao Xu, <b>Zhongming Yao<sup>†</sup></b>, Weihao Li, Zhenghang Song, Yumeng Song, Tianyi Li, Yushuai Li.</div>
-<div class="pub-venue"><span class="np">[</span>CORE A*<span class="np">]</span> International Conference on Autonomous Agents and Multiagent Systems <span class="np">(</span><b>AAMAS</b><span class="np">)</span>, 2026.</div>
+<div class="pub-venue"><span class="np">[CORE A*]</span> International Conference on Autonomous Agents and Multiagent Systems (<b>AAMAS</b>), 2026.</div>
 </div>
 
 <div class="pub">
 <div class="pub-title">One-for-All Community Search on Unseen Graphs.</div>
 <div class="pub-authors">Mo Li, Zhaosong Zhao, Linlin Ding, Renata Borovica-Gajic, <b>Zhongming Yao</b>, Jianxin Li.</div>
-<div class="pub-venue"><span class="np">[</span>CORE A*<span class="np">]</span> International ACM SIGIR Conference on Research and Development in Information Retrieval <span class="np">(</span><b>SIGIR</b><span class="np">)</span>, 2026.</div>
+<div class="pub-venue"><span class="np">[CORE A*]</span> International ACM SIGIR Conference on Research and Development in Information Retrieval (<b>SIGIR</b>), 2026.</div>
 </div>
 
 <div class="pub">
 <div class="pub-title">FOgym: A Bottom-Up Home Energy Management Framework Based on FlexOffers and Multi-Agent Reinforcement Learning.</div>
 <div class="pub-authors">Jiachen Xu, Torben Bach Pedersen, <b>Zhongming Yao</b>, Tianyi Li, Yushuai Li.</div>
-<div class="pub-venue">ACM International Conference on Future and Sustainable Energy Systems <span class="np">(</span><b>e-Energy</b><span class="np">)</span>, 2026.</div>
+<div class="pub-venue">ACM International Conference on Future and Sustainable Energy Systems (<b>e-Energy</b>), 2026.</div>
 </div>
 
 <div class="pub">
 <div class="pub-title">VeriTS: Verifiable Model-Enhanced Time-Series Queries on Blockchain Systems.</div>
 <div class="pub-authors"><b>Zhongming Yao<sup>†</sup></b>, Jun Pang, Chenxu Wang, Qian Ma, Peiyuan Guan, Shiliang Zhang.</div>
-<div class="pub-venue"><span class="np">[</span>CORE A*<span class="np">]</span> IEEE International Conference on Data Mining Workshops <span class="np">(</span><b>ICDMW</b><span class="np">)</span>, 2026.</div>
+<div class="pub-venue"><span class="np">[CORE A*]</span> IEEE International Conference on Data Mining Workshops (<b>ICDMW</b>), 2026.</div>
 </div>
 
 <div class="pub">
 <div class="pub-title">Time Series Agentic AI for Energy Systems.</div>
 <div class="pub-authors">Xiaoyu Zhang, Jiachen Xu, <b>Zhongming Yao</b>, Tianyi Li, Yushuai Li.</div>
-<div class="pub-venue"><span class="np">[</span>CORE A*<span class="np">]</span> IEEE International Conference on Data Mining Workshops <span class="np">(</span><b>ICDMW</b><span class="np">)</span>, 2026.</div>
+<div class="pub-venue"><span class="np">[CORE A*]</span> IEEE International Conference on Data Mining Workshops (<b>ICDMW</b>), 2026.</div>
 </div>
 
 <div class="pub">
 <div class="pub-title">EVT² : Efficient and Verifiable Trajectory Top-k Queries in Hybrid-Storage Blockchains.</div>
 <div class="pub-authors">Yusen Mao, <b>Zhongming Yao</b>, Junchang Xin, Chenchen Yan, Yumeng Song, Zhongzhong Jiang, and Zhiqiong Wang.</div>
-<div class="pub-venue"><span class="np">[</span>CORE C<span class="np">]</span> APWeb-WAIM joint International Conference on Web and Big Data <span class="np">(</span><b>APWeb-WAIM</b><span class="np">)</span>, 2026.</div>
+<div class="pub-venue"><span class="np">[CORE C]</span> APWeb-WAIM joint International Conference on Web and Big Data (<b>APWeb-WAIM</b>), 2026.</div>
 </div>
 
 <div class="pub">
 <div class="pub-title">HotBC: A Data Hotness–Aware Blockchain Storage Mechanism through Off-Chain Offloading.</div>
 <div class="pub-authors">Chenchen Yan, <b>Zhongming Yao</b>, Zhiqiong Wang, Kun Hao, Yusen Mao, Yushuai Li, Tianyi Li, and Junchang Xin.</div>
-<div class="pub-venue">International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems <span class="np">(</span><b>BlockSys</b><span class="np">)</span>, 2026.</div>
+<div class="pub-venue">International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems (<b>BlockSys</b>), 2026.</div>
 </div>
 
 <div class="pub">
 <div class="pub-title">StyleTimeQAM: Modeling Learning Style and Temporal Dynamics for Question-Answer Matching in Online Teaching Groups.</div>
 <div class="pub-authors">Xinyang Li, Zhihong Cui, <b>Zhongming Yao</b>, Zhangkai Wu, Hengyu Liu, Kristian Torp, Minghe Yu, Tiancheng Zhang, Ge Yu.</div>
-<div class="pub-venue">International Conference on Behavioural and Social Computing <span class="np">(</span><b>BESC</b><span class="np">)</span>, 2026.</div>
+<div class="pub-venue">International Conference on Behavioural and Social Computing (<b>BESC</b>), 2026.</div>
 </div>
 
 <div class="pub">
 <div class="pub-title">Towards Heterogeneous Multimodal Sentiment Analysis with ASR Errors via Multi-Granularity Contrastive Coordination.</div>
 <div class="pub-authors">Qi Shen, Junchang Xin, Bingtian Dai, <b>Zhongming Yao</b>, Xinyao Liu, Zhihong Huang, Zhiqiong Wang.</div>
-<div class="pub-venue"><span class="np">[</span>CORE A*, JCR Q1<span class="np">]</span> IEEE Transactions on Multimedia <span class="np">(</span><b>TMM</b><span class="np">)</span>, 2026.</div>
+<div class="pub-venue"><span class="np">[CORE A*, JCR Q1]</span> IEEE Transactions on Multimedia (<b>TMM</b>), 2026.</div>
 </div>
 
 <div class="pub">
 <div class="pub-title">Digital Twin for Multitimescale Economic Dispatch in Cyber-Physical Energy Systems.</div>
 <div class="pub-authors">Jiaqi Tian, Bonan Huang, Tianyi Li, David Wenzhong Gao, <b>Zhongming Yao</b>, Yumeng Song, Yushuai Li.</div>
-<div class="pub-venue"><span class="np">[</span>JCR Q1<span class="np">]</span> IEEE Transactions on Industrial Informatics <span class="np">(</span><b>TII</b><span class="np">)</span>, 2026.</div>
+<div class="pub-venue"><span class="np">[JCR Q1]</span> IEEE Transactions on Industrial Informatics (<b>TII</b>), 2026.</div>
 </div>
 
 <div class="pub">
 <div class="pub-title">A Survey on Large Language Models Enhanced Reinforcement Learning for Smart Grid.</div>
 <div class="pub-authors">Xiaoyu Zhang, Qiuye Sun, Tianyi Li, Yumeng Song, <b>Zhongming Yao</b>, Yushuai Li.</div>
-<div class="pub-venue"><span class="np">[</span>JCR Q1<span class="np">]</span> Journal of Modern Power Systems and Clean Energy <span class="np">(</span><b>MPCE</b><span class="np">)</span>, 2026.</div>
+<div class="pub-venue"><span class="np">[JCR Q1]</span> Journal of Modern Power Systems and Clean Energy (<b>MPCE</b>), 2026.</div>
 </div>
 
 <div class="pub">
 <div class="pub-title">MiRoCPO: Mutual Information and RoCoF-Aware Constrained Policy Optimization for Robust Load Frequency Control Against Temporal-Coupled Attacks.</div>
 <div class="pub-authors">Wentao Xu, Yushuai Li, <b>Zhongming Yao</b>, Tianyi Li, Zhenghang Song, and Yan Zhang.</div>
-<div class="pub-venue">Cyber-Physical Energy Systems <span class="np">(</span><b>CPES</b><span class="np">)</span>, 2026.</div>
+<div class="pub-venue">Cyber-Physical Energy Systems (<b>CPES</b>), 2026.</div>
 </div>
 
 <div class="pub">
 <div class="pub-title">VGQ: Enabling Verifiable Graph Queries on Blockchain Systems.</div>
 <div class="pub-authors"><b>Zhongming Yao</b>, Tianyi Li, Junchang Xin, Yushuai Li, Chenxu Wang, Zhiqiong Wang, Divesh Srivastava, Christian S Jensen.</div>
-<div class="pub-venue"><span class="np">[</span>CORE A*<span class="np">]</span> The IEEE International Conference on Data Engineering <span class="np">(</span><b>ICDE</b><span class="np">)</span>, 2025.</div>
+<div class="pub-venue"><span class="np">[CORE A*]</span> The IEEE International Conference on Data Engineering (<b>ICDE</b>), 2025.</div>
 </div>
 
 <div class="pub">
 <div class="pub-title">Clustered Federated Learning for Energy-Harvesting Smart Meters in P2P Energy Trading.</div>
 <div class="pub-authors">Ziming Liu, Bonan Huang, Cheng Zhang, <b>Zhongming Yao</b>, Tianyi Li, Qiuye Sun, Yushuai Li.</div>
-<div class="pub-venue"><span class="np">[</span>JCR Q1<span class="np">]</span> IEEE Transactions on Green Communications and Networking <span class="np">(</span><b>TGCN</b><span class="np">)</span>, 2025.</div>
+<div class="pub-venue"><span class="np">[JCR Q1]</span> IEEE Transactions on Green Communications and Networking (<b>TGCN</b>), 2025.</div>
 </div>
 
 <div class="pub">
 <div class="pub-title">Networked Digital Twins for Autonomous Vehicles: A New Perspective.</div>
 <div class="pub-authors">Tianyi Li, Yushuai Li, Yumeng Song, <b>Zhongming Yao</b>, Wei Gao, David Wenzhong Gao.</div>
-<div class="pub-venue"><span class="np">[</span>JCR Q1<span class="np">]</span> IEEE Transactions on Intelligent Vehicles <span class="np">(</span><b>TIV</b><span class="np">)</span>, 2024.</div>
+<div class="pub-venue"><span class="np">[JCR Q1]</span> IEEE Transactions on Intelligent Vehicles (<b>TIV</b>), 2024.</div>
 </div>
 
 <div class="pub">
 <div class="pub-title">Efficient Blockchain Data Trusty Provenance Based on the W3C PROV Model.</div>
 <div class="pub-authors"><b>Zhongming Yao</b>, Zhiqiong Wang, Liang Wen, Kun Hao, Junming Xu.</div>
-<div class="pub-venue"><span class="np">[</span>CORE C<span class="np">]</span> The International Conference on Advanced Data Mining and Applications <span class="np">(</span><b>ADMA</b><span class="np">)</span>, 2023.</div>
+<div class="pub-venue"><span class="np">[CORE C]</span> The International Conference on Advanced Data Mining and Applications (<b>ADMA</b>), 2023.</div>
 </div>
 
 <div class="pub">
 <div class="pub-title">A Fine-Grained Verification Method for Blockchain Data Based on Merkle Path Sharding.</div>
 <div class="pub-authors">Liang Wen, Zhiqiong Wang, Tingyu Cui, Caiyun Shi, Baoting Li, <b>Zhongming Yao</b>.</div>
-<div class="pub-venue"><span class="np">[</span>CORE C<span class="np">]</span> The International Conference on Advanced Data Mining and Applications <span class="np">(</span><b>ADMA</b><span class="np">)</span>, 2023.</div>
+<div class="pub-venue"><span class="np">[CORE C]</span> The International Conference on Advanced Data Mining and Applications (<b>ADMA</b>), 2023.</div>
 </div>
 
 <div class="pub">
 <div class="pub-title">Learned Index Based Semantic Keyword Query on Blockchain.</div>
 <div class="pub-authors"><b>Zhongming Yao</b>, Junchang Xin, Kun Hao, Zhiqiong Wang, Wancheng Zhu.</div>
-<div class="pub-venue"><span class="np">[</span>JCR Q1<span class="np">]</span> Mathematics, 2023.</div>
+<div class="pub-venue"><span class="np">[JCR Q1]</span> Mathematics, 2023.</div>
 </div>
 
 <div class="pub">
 <div class="pub-title">Efficient and Secure Data Sharing Scheme on Interoperable Blockchain Database.</div>
 <div class="pub-authors">Kun Hao, Junchang Xin, Zhiqiong Wang, <b>Zhongming Yao</b>, Guoren Wang.</div>
-<div class="pub-venue"><span class="np">[</span>JCR Q1<span class="np">]</span> IEEE Transactions on Big Data <span class="np">(</span><b>TBD</b><span class="np">)</span>, 2023.</div>
+<div class="pub-venue"><span class="np">[JCR Q1]</span> IEEE Transactions on Big Data (<b>TBD</b>), 2023.</div>
 </div>
 
 <div class="pub">
 <div class="pub-title">On Efficient Top-k Transaction Path Query Processing in Blockchain Database.</div>
 <div class="pub-authors">Kun Hao, Junchang Xin, Zhiqiong Wang, <b>Zhongming Yao</b>, Guoren Wang.</div>
-<div class="pub-venue"><span class="np">[</span>CORE B, JCR Q3<span class="np">]</span> Data &amp; Knowledge Engineering <span class="np">(</span><b>DKE</b><span class="np">)</span>, 2022.</div>
+<div class="pub-venue"><span class="np">[CORE B, JCR Q3]</span> Data &amp; Knowledge Engineering (<b>DKE</b>), 2022.</div>
 </div>
 
 <div class="pub">
 <div class="pub-title">A Join Query Optimization Algorithm in Multi-Blockchain Environment.</div>
 <div class="pub-authors">Sihan Dong, Junchang Xin, Kun Hao, <b>Zhongming Yao</b>, Jinyi Chen.</div>
-<div class="pub-venue">Journal of Zhejiang University <span class="np">(</span>Engineering Science<span class="np">)</span>, 2022.</div>
+<div class="pub-venue">Journal of Zhejiang University (Engineering Science), 2022.</div>
 </div>
 
 </div>
@@ -232,16 +232,17 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 
 **PC Member and Reviewer**
 
-- 2027: ICDE, AAAI
+- 2027: ICDE, AAAI, WSDM, DASFAA
 - 2026: AAAI, CIKM, ICDM, APWeb-WAIM
 - 2025: ICDM, APWeb-WAIM
 
 **Journal Reviewer**
 
+- IEEE Transactions on Industrial Informatics (TII)
 - Distributed and Parallel Databases (DPD)
+- Computing
 - IEEE Network
 - The Journal of Supercomputing
-- IEEE Transactions on Industrial Informatics (TII)
 - World Wide Web: Internet and Web Information Systems (WWWJ)
 
 <h2 id="patents">Patents &amp; Software Copyrights</h2>
