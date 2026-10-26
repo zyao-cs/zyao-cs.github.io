@@ -81,13 +81,13 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 <div class="pub">
 <div class="pub-title">Multimodal Knowledge Graph Completion via Relation-Aware Negative Sampling with Diffusion-based Interpolation.</div>
 <div class="pub-authors">Qian Ma, Linfei Dai, <b>Zhongming Yao</b>, Yu Gu, Tianyi Li, Christian S. Jensen, Ge Yu.</div>
-<div class="pub-venue"><span class="np">[CORE A*]</span> International Conference on Very Large Data Bases (<b>PVLDB</b>), 2026.</div>
+<div class="pub-venue"><span class="np">[CORE A*]</span> International Conference on Very Large Databases (<b>PVLDB</b>), 2026.</div>
 </div>
 
 <div class="pub">
 <div class="pub-title">Replacing Multi-Step Assembly of Data Preparation Pipelines with One-Step LLM Pipeline Generation for Table QA.</div>
 <div class="pub-authors">Fengyu Li, Junhao Zhu, Kaishi Song, Lu Chen, <b>Zhongming Yao</b>, Tianyi Li, Christian S. Jensen.</div>
-<div class="pub-venue"><span class="np">[CORE A*]</span> International Conference on Very Large Data Bases (<b>PVLDB</b>), 2026.</div>
+<div class="pub-venue"><span class="np">[CORE A*]</span> International Conference on Very Large Databases (<b>PVLDB</b>), 2026.</div>
 </div>
 
 <div class="pub">
@@ -232,7 +232,7 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 
 **PC Member and Reviewer**
 
-- 2027: ICDE, AAAI, WSDM, DASFAA
+- 2027: ICDE, WWW, AAAI, WSDM, DASFAA
 - 2026: AAAI, CIKM, ICDM, APWeb-WAIM
 - 2025: ICDM, APWeb-WAIM
 
