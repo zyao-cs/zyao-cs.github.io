@@ -135,7 +135,7 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 <div class="pub">
 <div class="pub-title">StyleTimeQAM: Modeling Learning Style and Temporal Dynamics for Question-Answer Matching in Online Teaching Groups.</div>
 <div class="pub-authors">Xinyang Li, Zhihong Cui, <b>Zhongming Yao</b>, Zhangkai Wu, Hengyu Liu, Kristian Torp, Minghe Yu, Tiancheng Zhang, Ge Yu.</div>
-<div class="pub-venue">International Conference on Behavioural and Social Computing (<b>BESC</b>), 2026.</div>
+<div class="pub-venue">International Conference on Behavioural and Social Computing (<b>BESC</b>), 2026. <span class="np" style="color:#b30000;font-weight:700;">Best Special Session Paper Award</span></div>
 </div>
 
 <div class="pub">
@@ -244,6 +244,10 @@ I am currently a Postdoctoral Researcher in the Department of Computer Science a
 - IEEE Network
 - The Journal of Supercomputing
 - World Wide Web: Internet and Web Information Systems (WWWJ)
+
+<h2 id="awards">Awards</h2>
+
+- **Best Special Session Paper Award**, International Conference on Behavioural and Social Computing (**BESC**), 2026.
 
 <h2 id="patents">Patents &amp; Software Copyrights</h2>
 
