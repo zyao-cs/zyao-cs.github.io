@@ -20,6 +20,9 @@ main:
   - title: "Academic Services"
     url: /#academic
 
+  - title: "Awards"
+    url: /#awards
+
   - title: "Patents"
     url: /#patents
     
